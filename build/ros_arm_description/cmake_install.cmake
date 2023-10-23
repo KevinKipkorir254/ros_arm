@@ -48,6 +48,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/kevo/ros_ws/src/ros_arm/src/ros_arm_description/r6bot"
     "/home/kevo/ros_ws/src/ros_arm/src/ros_arm_description/launch"
     "/home/kevo/ros_ws/src/ros_arm/src/ros_arm_description/rviz"
+    "/home/kevo/ros_ws/src/ros_arm/src/ros_arm_description/config"
     )
 endif()
 

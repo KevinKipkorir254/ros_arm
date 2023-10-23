@@ -1,0 +1,41 @@
+[0.139s] Invoking command in '/home/kevo/ros_ws/src/ros_arm/build/ros_arm_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kevo/ros_ws/src/ros_arm/src/ros_arm_bringup -DCMAKE_INSTALL_PREFIX=/home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup
+[0.282s] -- The C compiler identification is GNU 11.4.0
+[0.801s] -- The CXX compiler identification is GNU 11.4.0
+[1.186s] -- Detecting C compiler ABI info
+[1.307s] -- Detecting C compiler ABI info - done
+[1.313s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.314s] -- Detecting C compile features
+[1.314s] -- Detecting C compile features - done
+[1.316s] -- Detecting CXX compiler ABI info
+[1.443s] -- Detecting CXX compiler ABI info - done
+[1.451s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.451s] -- Detecting CXX compile features
+[1.452s] -- Detecting CXX compile features - done
+[1.454s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.589s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.712s] -- Configuring done
+[1.715s] -- Generating done
+[1.715s] -- Build files have been written to: /home/kevo/ros_ws/src/ros_arm/build/ros_arm_bringup
+[1.719s] Invoked command in '/home/kevo/ros_ws/src/ros_arm/build/ros_arm_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kevo/ros_ws/src/ros_arm/src/ros_arm_bringup -DCMAKE_INSTALL_PREFIX=/home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup
+[1.720s] Invoking command in '/home/kevo/ros_ws/src/ros_arm/build/ros_arm_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kevo/ros_ws/src/ros_arm/build/ros_arm_bringup -- -j8 -l8
+[1.746s] Invoked command in '/home/kevo/ros_ws/src/ros_arm/build/ros_arm_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kevo/ros_ws/src/ros_arm/build/ros_arm_bringup -- -j8 -l8
+[1.760s] Invoking command in '/home/kevo/ros_ws/src/ros_arm/build/ros_arm_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kevo/ros_ws/src/ros_arm/build/ros_arm_bringup
+[1.765s] -- Install configuration: ""
+[1.765s] -- Installing: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup//launch
+[1.765s] -- Installing: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup//launch/gazebo.launch.xml
+[1.765s] -- Installing: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ament_index/resource_index/package_run_dependencies/ros_arm_bringup
+[1.766s] -- Installing: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ament_index/resource_index/parent_prefix_path/ros_arm_bringup
+[1.766s] -- Installing: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup/environment/ament_prefix_path.sh
+[1.766s] -- Installing: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup/environment/ament_prefix_path.dsv
+[1.766s] -- Installing: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup/environment/path.sh
+[1.766s] -- Installing: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup/environment/path.dsv
+[1.767s] -- Installing: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup/local_setup.bash
+[1.767s] -- Installing: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup/local_setup.sh
+[1.767s] -- Installing: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup/local_setup.zsh
+[1.767s] -- Installing: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup/local_setup.dsv
+[1.767s] -- Installing: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup/package.dsv
+[1.767s] -- Installing: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ament_index/resource_index/packages/ros_arm_bringup
+[1.767s] -- Installing: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup/cmake/ros_arm_bringupConfig.cmake
+[1.767s] -- Installing: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup/cmake/ros_arm_bringupConfig-version.cmake
+[1.767s] -- Installing: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup/package.xml
+[1.770s] Invoked command in '/home/kevo/ros_ws/src/ros_arm/build/ros_arm_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kevo/ros_ws/src/ros_arm/build/ros_arm_bringup

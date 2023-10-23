@@ -1,1 +1,1 @@
-/opt/ros/humble:/home/kevo/ros_ws/src/udemy_project/install/my_arm_description:/home/kevo/ros_ws/src/udemy_project/install/my_arm_bringup
+/home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup:/home/kevo/ros_ws/src/ros_arm/install/ros_arm_description:/opt/ros/humble:/home/kevo/ros_ws/src/udemy_project/install/my_arm_description:/home/kevo/ros_ws/src/udemy_project/install/my_arm_bringup

@@ -13,7 +13,7 @@ find_package(ament_cmake REQUIRED)
  
 
 install(
-  DIRECTORY urdf r6bot launch rviz
+  DIRECTORY urdf r6bot launch rviz config
   DESTINATION share/${PROJECT_NAME}/
 )
 

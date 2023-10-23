@@ -1,0 +1,17 @@
+/home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup//launch/gazebo.launch.xml
+/home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup//launch/controllers.launch.py
+/home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ament_index/resource_index/package_run_dependencies/ros_arm_bringup
+/home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ament_index/resource_index/parent_prefix_path/ros_arm_bringup
+/home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup/environment/ament_prefix_path.sh
+/home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup/environment/ament_prefix_path.dsv
+/home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup/environment/path.sh
+/home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup/environment/path.dsv
+/home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup/local_setup.bash
+/home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup/local_setup.sh
+/home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup/local_setup.zsh
+/home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup/local_setup.dsv
+/home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup/package.dsv
+/home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ament_index/resource_index/packages/ros_arm_bringup
+/home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup/cmake/ros_arm_bringupConfig.cmake
+/home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup/cmake/ros_arm_bringupConfig-version.cmake
+/home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup/package.xml

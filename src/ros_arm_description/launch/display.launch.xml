@@ -11,7 +11,7 @@
     <node pkg="joint_state_publisher_gui" exec="joint_state_publisher_gui">
     </node> 
 
-    
+
     <node pkg="rviz2" exec="rviz2"  args="-d $(find-pkg-share ros_arm_description)/rviz/my_rviz.rviz">
     </node>
 
