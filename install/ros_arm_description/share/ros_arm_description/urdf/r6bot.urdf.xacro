@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://wiki.ros.org/xacro" name="r6bot">
+
+  <!-- create link fixed to the "world" -->
+  <link name="world"/>
+
+  <!-- Import r6bot macro -->
+  <xacro:include filename="$(find ros_arm_description)/urdf/r6bot_description.urdf.xacro"/>
+</robot>
