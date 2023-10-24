@@ -28,6 +28,7 @@ def generate_launch_description():
 
     nodes = [
                     joint_state_broadcaster_spawner,
+                    robot_controller_spawner,
                 ]
 
     return LaunchDescription(nodes)
