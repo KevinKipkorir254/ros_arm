@@ -1,0 +1,16 @@
+/home/kevo/ros_ws/src/ros_arm/install/hello_moveit/lib/hello_moveit/hello_moveit
+/home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/ament_index/resource_index/package_run_dependencies/hello_moveit
+/home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/ament_index/resource_index/parent_prefix_path/hello_moveit
+/home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.sh
+/home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.dsv
+/home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/hello_moveit/environment/path.sh
+/home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/hello_moveit/environment/path.dsv
+/home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/hello_moveit/local_setup.bash
+/home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/hello_moveit/local_setup.sh
+/home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/hello_moveit/local_setup.zsh
+/home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/hello_moveit/local_setup.dsv
+/home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/hello_moveit/package.dsv
+/home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/ament_index/resource_index/packages/hello_moveit
+/home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig.cmake
+/home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig-version.cmake
+/home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/hello_moveit/package.xml

@@ -18,8 +18,8 @@
     <include file="$(find-pkg-share ros_arm_bringup)/launch/controllers.launch.py">
     </include>
 
-    <node pkg="rviz2" exec="rviz2" args="-d $(find-pkg-share ros_arm_description)/rviz/my_rviz.rviz">
-    </node>
+   <!-- <node pkg="rviz2" exec="rviz2" args="-d $(find-pkg-share ros_arm_description)/rviz/my_rviz.rviz">
+    </node>-->
     
 
 </launch>

@@ -1,0 +1,26 @@
+[0.440s] Invoking command in '/home/kevo/ros_ws/src/ros_arm/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kevo/ros_ws/src/ros_arm/build/hello_moveit -- -j8 -l8
+[0.604s] [35m[1mConsolidate compiler generated dependencies of target hello_moveit[0m
+[0.680s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o[0m
+[57.575s] [100%] [32m[1mLinking CXX executable hello_moveit[0m
+[60.005s] [100%] Built target hello_moveit
+[60.063s] Invoked command in '/home/kevo/ros_ws/src/ros_arm/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kevo/ros_ws/src/ros_arm/build/hello_moveit -- -j8 -l8
+[60.203s] Invoking command in '/home/kevo/ros_ws/src/ros_arm/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/kevo/ros_ws/src/ros_arm/build/hello_moveit
+[60.250s] -- Install configuration: ""
+[60.251s] -- Installing: /home/kevo/ros_ws/src/ros_arm/install/hello_moveit/lib/hello_moveit/hello_moveit
+[60.254s] -- Set runtime path of "/home/kevo/ros_ws/src/ros_arm/install/hello_moveit/lib/hello_moveit/hello_moveit" to ""
+[60.255s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/ament_index/resource_index/package_run_dependencies/hello_moveit
+[60.256s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/ament_index/resource_index/parent_prefix_path/hello_moveit
+[60.256s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.sh
+[60.257s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.dsv
+[60.258s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/hello_moveit/environment/path.sh
+[60.258s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/hello_moveit/environment/path.dsv
+[60.259s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/hello_moveit/local_setup.bash
+[60.269s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/hello_moveit/local_setup.sh
+[60.270s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/hello_moveit/local_setup.zsh
+[60.270s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/hello_moveit/local_setup.dsv
+[60.270s] -- Installing: /home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/hello_moveit/package.dsv
+[60.271s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/ament_index/resource_index/packages/hello_moveit
+[60.271s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig.cmake
+[60.271s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig-version.cmake
+[60.271s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/hello_moveit/package.xml
+[60.280s] Invoked command in '/home/kevo/ros_ws/src/ros_arm/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/kevo/ros_ws/src/ros_arm/build/hello_moveit

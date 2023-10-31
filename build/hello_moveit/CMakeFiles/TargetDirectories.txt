@@ -1,0 +1,10 @@
+/home/kevo/ros_ws/src/ros_arm/build/hello_moveit/CMakeFiles/uninstall.dir
+/home/kevo/ros_ws/src/ros_arm/build/hello_moveit/CMakeFiles/hello_moveit_uninstall.dir
+/home/kevo/ros_ws/src/ros_arm/build/hello_moveit/CMakeFiles/hello_moveit.dir
+/home/kevo/ros_ws/src/ros_arm/build/hello_moveit/CMakeFiles/test.dir
+/home/kevo/ros_ws/src/ros_arm/build/hello_moveit/CMakeFiles/edit_cache.dir
+/home/kevo/ros_ws/src/ros_arm/build/hello_moveit/CMakeFiles/rebuild_cache.dir
+/home/kevo/ros_ws/src/ros_arm/build/hello_moveit/CMakeFiles/list_install_components.dir
+/home/kevo/ros_ws/src/ros_arm/build/hello_moveit/CMakeFiles/install.dir
+/home/kevo/ros_ws/src/ros_arm/build/hello_moveit/CMakeFiles/install/local.dir
+/home/kevo/ros_ws/src/ros_arm/build/hello_moveit/CMakeFiles/install/strip.dir

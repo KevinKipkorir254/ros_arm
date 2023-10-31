@@ -1,0 +1,1222 @@
+[0.000000] (-) TimerEvent: {}
+[0.005688] (hello_moveit) JobQueued: {'identifier': 'hello_moveit', 'dependencies': OrderedDict()}
+[0.007551] (ros_arm_description) JobQueued: {'identifier': 'ros_arm_description', 'dependencies': OrderedDict()}
+[0.007998] (ros_arm_bringup) JobQueued: {'identifier': 'ros_arm_bringup', 'dependencies': OrderedDict([('ros_arm_description', '/home/kevo/ros_ws/src/ros_arm/install/ros_arm_description')])}
+[0.008641] (ros_arm_moveit_config) JobQueued: {'identifier': 'ros_arm_moveit_config', 'dependencies': OrderedDict([('ros_arm_description', '/home/kevo/ros_ws/src/ros_arm/install/ros_arm_description')])}
+[0.009540] (ros_arm_description) JobStarted: {'identifier': 'ros_arm_description'}
+[0.098412] (-) TimerEvent: {}
+[0.204766] (-) TimerEvent: {}
+[0.309217] (-) TimerEvent: {}
+[0.412219] (-) TimerEvent: {}
+[0.515080] (-) TimerEvent: {}
+[0.618441] (-) TimerEvent: {}
+[0.704150] (hello_moveit) JobStarted: {'identifier': 'hello_moveit'}
+[0.718648] (-) TimerEvent: {}
+[0.820135] (-) TimerEvent: {}
+[0.930440] (-) TimerEvent: {}
+[1.032740] (-) TimerEvent: {}
+[1.149567] (-) TimerEvent: {}
+[1.255413] (-) TimerEvent: {}
+[1.361797] (-) TimerEvent: {}
+[1.463362] (-) TimerEvent: {}
+[1.568491] (-) TimerEvent: {}
+[1.682460] (-) TimerEvent: {}
+[1.784268] (-) TimerEvent: {}
+[1.787104] (ros_arm_description) JobProgress: {'identifier': 'ros_arm_description', 'progress': 'cmake'}
+[1.789289] (ros_arm_description) JobProgress: {'identifier': 'ros_arm_description', 'progress': 'build'}
+[1.793196] (ros_arm_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kevo/ros_ws/src/ros_arm/build/ros_arm_description', '--', '-j8', '-l8'], 'cwd': '/home/kevo/ros_ws/src/ros_arm/build/ros_arm_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kevo'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kevo/ros2_ws/install/ros2_control_demo_example_6/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_5/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_4/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_3/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_2/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_14/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_10/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_1/lib:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/lib:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner_testutils/lib:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner/lib:/home/kevo/ws_moveit2/install/moveit_visual_tools/lib:/home/kevo/ws_moveit2/install/moveit_task_constructor_visualization/lib:/home/kevo/ws_moveit2/install/moveit_task_constructor_demo/lib:/home/kevo/ws_moveit2/install/moveit_task_constructor_capabilities/lib:/home/kevo/ws_moveit2/install/moveit_task_constructor_core/lib:/home/kevo/ws_moveit2/install/moveit_ros_control_interface/lib:/home/kevo/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/kevo/ws_moveit2/install/moveit_setup_assistant/lib:/home/kevo/ws_moveit2/install/moveit_setup_srdf_plugins/lib:/home/kevo/ws_moveit2/install/moveit_setup_core_plugins/lib:/home/kevo/ws_moveit2/install/moveit_setup_controllers/lib:/home/kevo/ws_moveit2/install/moveit_setup_app_plugins/lib:/home/kevo/ws_moveit2/install/moveit_setup_framework/lib:/home/kevo/ws_moveit2/install/moveit_servo/lib:/home/kevo/ws_moveit2/install/moveit_ros_visualization/lib:/home/kevo/ws_moveit2/install/moveit_hybrid_planning/lib:/home/kevo/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/kevo/ws_moveit2/install/moveit_ros_benchmarks/lib:/home/kevo/ws_moveit2/install/moveit_ros_warehouse/lib:/home/kevo/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/kevo/ws_moveit2/install/moveit_ros_perception/lib:/home/kevo/ws_moveit2/install/moveit_ros_move_group/lib:/home/kevo/ws_moveit2/install/moveit_planners_ompl/lib:/home/kevo/ws_moveit2/install/moveit_ros_planning/lib:/home/kevo/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/kevo/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/kevo/ws_moveit2/install/moveit_planners_chomp/lib:/home/kevo/ws_moveit2/install/moveit_kinematics/lib:/home/kevo/ws_moveit2/install/moveit_chomp_optimizer_adapter/lib:/home/kevo/ws_moveit2/install/chomp_motion_planner/lib:/home/kevo/ws_moveit2/install/moveit_core/lib:/home/kevo/ws_moveit2/install/srdfdom/lib:/home/kevo/ws_moveit2/install/rviz_marker_tools/lib:/home/kevo/ws_moveit2/install/rosparam_shortcuts/lib:/home/kevo/ws_moveit2/install/moveit_task_constructor_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/kevo'), ('OLDPWD', '/home/kevo'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kevo/ros_ws/src/ros_arm/install:/home/kevo/ros2_ws/install:/home/kevo/ws_moveit2/install:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kevo'), ('NAME', 'Kipkorir'), ('WSL_INTEROP', '/run/WSL/615_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/../../share/gazebo-11/models::/home/kevo/ros_ws/src/ros_arm/src'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/kevo/ws_moveit2/install/moveit_core/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2023a/runtime/win64:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/HP/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/MinGW/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config:/home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup:/home/kevo/ros_ws/src/ros_arm/install/ros_arm_description:/home/kevo/ros_ws/src/ros_arm/install/hello_moveit:/home/kevo/ros2_ws/install/ros2_control_demo_example_6:/home/kevo/ros2_ws/install/ros2_control_demo_example_5:/home/kevo/ros2_ws/install/ros2_control_demo_example_4:/home/kevo/ros2_ws/install/ros2_control_demo_example_3:/home/kevo/ros2_ws/install/ros2_control_demo_example_2:/home/kevo/ros2_ws/install/ros2_control_demo_example_14:/home/kevo/ros2_ws/install/ros2_control_demo_example_10:/home/kevo/ros2_ws/install/ros2_control_demo_example_1:/home/kevo/ros2_ws/install/ros2_control_demo_description:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_moveit_config:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/kevo/ws_moveit2/install/panda_moveit_config:/home/kevo/ws_moveit2/install/moveit_runtime:/home/kevo/ws_moveit2/install/moveit2_tutorials:/home/kevo/ws_moveit2/install/moveit:/home/kevo/ws_moveit2/install/moveit_planners:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner:/home/kevo/ws_moveit2/install/mtc_tutorial:/home/kevo/ws_moveit2/install/moveit_visual_tools:/home/kevo/ws_moveit2/install/moveit_task_constructor_visualization:/home/kevo/ws_moveit2/install/moveit_task_constructor_demo:/home/kevo/ws_moveit2/install/moveit_task_constructor_capabilities:/home/kevo/ws_moveit2/install/moveit_task_constructor_core:/home/kevo/ws_moveit2/install/moveit_ros_control_interface:/home/kevo/ws_moveit2/install/moveit_plugins:/home/kevo/ws_moveit2/install/moveit_simple_controller_manager:/home/kevo/ws_moveit2/install/moveit_setup_assistant:/home/kevo/ws_moveit2/install/moveit_setup_srdf_plugins:/home/kevo/ws_moveit2/install/moveit_setup_core_plugins:/home/kevo/ws_moveit2/install/moveit_setup_controllers:/home/kevo/ws_moveit2/install/moveit_setup_app_plugins:/home/kevo/ws_moveit2/install/moveit_setup_framework:/home/kevo/ws_moveit2/install/moveit_servo:/home/kevo/ws_moveit2/install/moveit_ros:/home/kevo/ws_moveit2/install/moveit_ros_visualization:/home/kevo/ws_moveit2/install/moveit_hybrid_planning:/home/kevo/ws_moveit2/install/moveit_ros_planning_interface:/home/kevo/ws_moveit2/install/moveit_ros_benchmarks:/home/kevo/ws_moveit2/install/moveit_ros_warehouse:/home/kevo/ws_moveit2/install/moveit_ros_robot_interaction:/home/kevo/ws_moveit2/install/moveit_ros_perception:/home/kevo/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/kevo/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/kevo/ws_moveit2/install/moveit_ros_move_group:/home/kevo/ws_moveit2/install/moveit_planners_ompl:/home/kevo/ws_moveit2/install/moveit_ros_planning:/home/kevo/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/kevo/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/kevo/ws_moveit2/install/moveit_planners_chomp:/home/kevo/ws_moveit2/install/moveit_kinematics:/home/kevo/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/kevo/ws_moveit2/install/chomp_motion_planner:/home/kevo/ws_moveit2/install/moveit_core:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/srdfdom:/home/kevo/ws_moveit2/install/rviz_marker_tools:/home/kevo/ws_moveit2/install/rosparam_shortcuts:/home/kevo/ws_moveit2/install/moveit_task_constructor_msgs:/home/kevo/ws_moveit2/install/moveit_resources_prbt_support:/home/kevo/ws_moveit2/install/moveit_resources:/home/kevo/ws_moveit2/install/moveit_resources_pr2_description:/home/kevo/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/kevo/ws_moveit2/install/moveit_resources_panda_description:/home/kevo/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/kevo/ws_moveit2/install/moveit_resources_fanuc_description:/home/kevo/ws_moveit2/install/moveit_common:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/kevo/ros_ws/src/ros_arm/build/ros_arm_description'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware/local/lib/python3.10/dist-packages:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages:/home/kevo/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/kevo/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/kevo/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/kevo/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config:/home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup:/home/kevo/ros_ws/src/ros_arm/install/ros_arm_description:/home/kevo/ros_ws/src/ros_arm/install/hello_moveit:/home/kevo/ros2_ws/install/ros2_control_demo_example_6:/home/kevo/ros2_ws/install/ros2_control_demo_example_5:/home/kevo/ros2_ws/install/ros2_control_demo_example_4:/home/kevo/ros2_ws/install/ros2_control_demo_example_3:/home/kevo/ros2_ws/install/ros2_control_demo_example_2:/home/kevo/ros2_ws/install/ros2_control_demo_example_14:/home/kevo/ros2_ws/install/ros2_control_demo_example_10:/home/kevo/ros2_ws/install/ros2_control_demo_example_1:/home/kevo/ros2_ws/install/ros2_control_demo_description:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_moveit_config:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/kevo/ws_moveit2/install/panda_moveit_config:/home/kevo/ws_moveit2/install/moveit_runtime:/home/kevo/ws_moveit2/install/moveit2_tutorials:/home/kevo/ws_moveit2/install/moveit:/home/kevo/ws_moveit2/install/moveit_planners:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner:/home/kevo/ws_moveit2/install/mtc_tutorial:/home/kevo/ws_moveit2/install/moveit_visual_tools:/home/kevo/ws_moveit2/install/moveit_task_constructor_visualization:/home/kevo/ws_moveit2/install/moveit_task_constructor_demo:/home/kevo/ws_moveit2/install/moveit_task_constructor_capabilities:/home/kevo/ws_moveit2/install/moveit_task_constructor_core:/home/kevo/ws_moveit2/install/moveit_ros_control_interface:/home/kevo/ws_moveit2/install/moveit_plugins:/home/kevo/ws_moveit2/install/moveit_simple_controller_manager:/home/kevo/ws_moveit2/install/moveit_setup_assistant:/home/kevo/ws_moveit2/install/moveit_setup_srdf_plugins:/home/kevo/ws_moveit2/install/moveit_setup_core_plugins:/home/kevo/ws_moveit2/install/moveit_setup_controllers:/home/kevo/ws_moveit2/install/moveit_setup_app_plugins:/home/kevo/ws_moveit2/install/moveit_setup_framework:/home/kevo/ws_moveit2/install/moveit_servo:/home/kevo/ws_moveit2/install/moveit_ros:/home/kevo/ws_moveit2/install/moveit_ros_visualization:/home/kevo/ws_moveit2/install/moveit_hybrid_planning:/home/kevo/ws_moveit2/install/moveit_ros_planning_interface:/home/kevo/ws_moveit2/install/moveit_ros_benchmarks:/home/kevo/ws_moveit2/install/moveit_ros_warehouse:/home/kevo/ws_moveit2/install/moveit_ros_robot_interaction:/home/kevo/ws_moveit2/install/moveit_ros_perception:/home/kevo/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/kevo/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/kevo/ws_moveit2/install/moveit_ros_move_group:/home/kevo/ws_moveit2/install/moveit_planners_ompl:/home/kevo/ws_moveit2/install/moveit_ros_planning:/home/kevo/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/kevo/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/kevo/ws_moveit2/install/moveit_planners_chomp:/home/kevo/ws_moveit2/install/moveit_kinematics:/home/kevo/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/kevo/ws_moveit2/install/chomp_motion_planner:/home/kevo/ws_moveit2/install/moveit_core:/home/kevo/ws_moveit2/install/srdfdom:/home/kevo/ws_moveit2/install/rviz_marker_tools:/home/kevo/ws_moveit2/install/rosparam_shortcuts:/home/kevo/ws_moveit2/install/moveit_task_constructor_msgs:/home/kevo/ws_moveit2/install/moveit_resources_prbt_support:/home/kevo/ws_moveit2/install/moveit_resources:/home/kevo/ws_moveit2/install/moveit_resources_pr2_description:/home/kevo/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/kevo/ws_moveit2/install/moveit_resources_panda_description:/home/kevo/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/kevo/ws_moveit2/install/moveit_resources_fanuc_description:/home/kevo/ws_moveit2/install/moveit_common:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[1.823056] (hello_moveit) JobProgress: {'identifier': 'hello_moveit', 'progress': 'cmake'}
+[1.836506] (hello_moveit) JobProgress: {'identifier': 'hello_moveit', 'progress': 'build'}
+[1.837397] (hello_moveit) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kevo/ros_ws/src/ros_arm/build/hello_moveit', '--', '-j8', '-l8'], 'cwd': '/home/kevo/ros_ws/src/ros_arm/build/hello_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kevo'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kevo/ros2_ws/install/ros2_control_demo_example_6/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_5/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_4/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_3/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_2/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_14/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_10/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_1/lib:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/lib:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner_testutils/lib:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner/lib:/home/kevo/ws_moveit2/install/moveit_visual_tools/lib:/home/kevo/ws_moveit2/install/moveit_task_constructor_visualization/lib:/home/kevo/ws_moveit2/install/moveit_task_constructor_demo/lib:/home/kevo/ws_moveit2/install/moveit_task_constructor_capabilities/lib:/home/kevo/ws_moveit2/install/moveit_task_constructor_core/lib:/home/kevo/ws_moveit2/install/moveit_ros_control_interface/lib:/home/kevo/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/kevo/ws_moveit2/install/moveit_setup_assistant/lib:/home/kevo/ws_moveit2/install/moveit_setup_srdf_plugins/lib:/home/kevo/ws_moveit2/install/moveit_setup_core_plugins/lib:/home/kevo/ws_moveit2/install/moveit_setup_controllers/lib:/home/kevo/ws_moveit2/install/moveit_setup_app_plugins/lib:/home/kevo/ws_moveit2/install/moveit_setup_framework/lib:/home/kevo/ws_moveit2/install/moveit_servo/lib:/home/kevo/ws_moveit2/install/moveit_ros_visualization/lib:/home/kevo/ws_moveit2/install/moveit_hybrid_planning/lib:/home/kevo/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/kevo/ws_moveit2/install/moveit_ros_benchmarks/lib:/home/kevo/ws_moveit2/install/moveit_ros_warehouse/lib:/home/kevo/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/kevo/ws_moveit2/install/moveit_ros_perception/lib:/home/kevo/ws_moveit2/install/moveit_ros_move_group/lib:/home/kevo/ws_moveit2/install/moveit_planners_ompl/lib:/home/kevo/ws_moveit2/install/moveit_ros_planning/lib:/home/kevo/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/kevo/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/kevo/ws_moveit2/install/moveit_planners_chomp/lib:/home/kevo/ws_moveit2/install/moveit_kinematics/lib:/home/kevo/ws_moveit2/install/moveit_chomp_optimizer_adapter/lib:/home/kevo/ws_moveit2/install/chomp_motion_planner/lib:/home/kevo/ws_moveit2/install/moveit_core/lib:/home/kevo/ws_moveit2/install/srdfdom/lib:/home/kevo/ws_moveit2/install/rviz_marker_tools/lib:/home/kevo/ws_moveit2/install/rosparam_shortcuts/lib:/home/kevo/ws_moveit2/install/moveit_task_constructor_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/kevo'), ('OLDPWD', '/home/kevo'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kevo/ros_ws/src/ros_arm/install:/home/kevo/ros2_ws/install:/home/kevo/ws_moveit2/install:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kevo'), ('NAME', 'Kipkorir'), ('WSL_INTEROP', '/run/WSL/615_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/../../share/gazebo-11/models::/home/kevo/ros_ws/src/ros_arm/src'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/kevo/ws_moveit2/install/moveit_core/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2023a/runtime/win64:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/HP/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/MinGW/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config:/home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup:/home/kevo/ros_ws/src/ros_arm/install/ros_arm_description:/home/kevo/ros_ws/src/ros_arm/install/hello_moveit:/home/kevo/ros2_ws/install/ros2_control_demo_example_6:/home/kevo/ros2_ws/install/ros2_control_demo_example_5:/home/kevo/ros2_ws/install/ros2_control_demo_example_4:/home/kevo/ros2_ws/install/ros2_control_demo_example_3:/home/kevo/ros2_ws/install/ros2_control_demo_example_2:/home/kevo/ros2_ws/install/ros2_control_demo_example_14:/home/kevo/ros2_ws/install/ros2_control_demo_example_10:/home/kevo/ros2_ws/install/ros2_control_demo_example_1:/home/kevo/ros2_ws/install/ros2_control_demo_description:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_moveit_config:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/kevo/ws_moveit2/install/panda_moveit_config:/home/kevo/ws_moveit2/install/moveit_runtime:/home/kevo/ws_moveit2/install/moveit2_tutorials:/home/kevo/ws_moveit2/install/moveit:/home/kevo/ws_moveit2/install/moveit_planners:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner:/home/kevo/ws_moveit2/install/mtc_tutorial:/home/kevo/ws_moveit2/install/moveit_visual_tools:/home/kevo/ws_moveit2/install/moveit_task_constructor_visualization:/home/kevo/ws_moveit2/install/moveit_task_constructor_demo:/home/kevo/ws_moveit2/install/moveit_task_constructor_capabilities:/home/kevo/ws_moveit2/install/moveit_task_constructor_core:/home/kevo/ws_moveit2/install/moveit_ros_control_interface:/home/kevo/ws_moveit2/install/moveit_plugins:/home/kevo/ws_moveit2/install/moveit_simple_controller_manager:/home/kevo/ws_moveit2/install/moveit_setup_assistant:/home/kevo/ws_moveit2/install/moveit_setup_srdf_plugins:/home/kevo/ws_moveit2/install/moveit_setup_core_plugins:/home/kevo/ws_moveit2/install/moveit_setup_controllers:/home/kevo/ws_moveit2/install/moveit_setup_app_plugins:/home/kevo/ws_moveit2/install/moveit_setup_framework:/home/kevo/ws_moveit2/install/moveit_servo:/home/kevo/ws_moveit2/install/moveit_ros:/home/kevo/ws_moveit2/install/moveit_ros_visualization:/home/kevo/ws_moveit2/install/moveit_hybrid_planning:/home/kevo/ws_moveit2/install/moveit_ros_planning_interface:/home/kevo/ws_moveit2/install/moveit_ros_benchmarks:/home/kevo/ws_moveit2/install/moveit_ros_warehouse:/home/kevo/ws_moveit2/install/moveit_ros_robot_interaction:/home/kevo/ws_moveit2/install/moveit_ros_perception:/home/kevo/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/kevo/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/kevo/ws_moveit2/install/moveit_ros_move_group:/home/kevo/ws_moveit2/install/moveit_planners_ompl:/home/kevo/ws_moveit2/install/moveit_ros_planning:/home/kevo/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/kevo/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/kevo/ws_moveit2/install/moveit_planners_chomp:/home/kevo/ws_moveit2/install/moveit_kinematics:/home/kevo/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/kevo/ws_moveit2/install/chomp_motion_planner:/home/kevo/ws_moveit2/install/moveit_core:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/srdfdom:/home/kevo/ws_moveit2/install/rviz_marker_tools:/home/kevo/ws_moveit2/install/rosparam_shortcuts:/home/kevo/ws_moveit2/install/moveit_task_constructor_msgs:/home/kevo/ws_moveit2/install/moveit_resources_prbt_support:/home/kevo/ws_moveit2/install/moveit_resources:/home/kevo/ws_moveit2/install/moveit_resources_pr2_description:/home/kevo/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/kevo/ws_moveit2/install/moveit_resources_panda_description:/home/kevo/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/kevo/ws_moveit2/install/moveit_resources_fanuc_description:/home/kevo/ws_moveit2/install/moveit_common:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/kevo/ros_ws/src/ros_arm/build/hello_moveit'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware/local/lib/python3.10/dist-packages:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages:/home/kevo/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/kevo/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/kevo/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/kevo/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config:/home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup:/home/kevo/ros_ws/src/ros_arm/install/ros_arm_description:/home/kevo/ros_ws/src/ros_arm/install/hello_moveit:/home/kevo/ros2_ws/install/ros2_control_demo_example_6:/home/kevo/ros2_ws/install/ros2_control_demo_example_5:/home/kevo/ros2_ws/install/ros2_control_demo_example_4:/home/kevo/ros2_ws/install/ros2_control_demo_example_3:/home/kevo/ros2_ws/install/ros2_control_demo_example_2:/home/kevo/ros2_ws/install/ros2_control_demo_example_14:/home/kevo/ros2_ws/install/ros2_control_demo_example_10:/home/kevo/ros2_ws/install/ros2_control_demo_example_1:/home/kevo/ros2_ws/install/ros2_control_demo_description:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_moveit_config:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/kevo/ws_moveit2/install/panda_moveit_config:/home/kevo/ws_moveit2/install/moveit_runtime:/home/kevo/ws_moveit2/install/moveit2_tutorials:/home/kevo/ws_moveit2/install/moveit:/home/kevo/ws_moveit2/install/moveit_planners:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner:/home/kevo/ws_moveit2/install/mtc_tutorial:/home/kevo/ws_moveit2/install/moveit_visual_tools:/home/kevo/ws_moveit2/install/moveit_task_constructor_visualization:/home/kevo/ws_moveit2/install/moveit_task_constructor_demo:/home/kevo/ws_moveit2/install/moveit_task_constructor_capabilities:/home/kevo/ws_moveit2/install/moveit_task_constructor_core:/home/kevo/ws_moveit2/install/moveit_ros_control_interface:/home/kevo/ws_moveit2/install/moveit_plugins:/home/kevo/ws_moveit2/install/moveit_simple_controller_manager:/home/kevo/ws_moveit2/install/moveit_setup_assistant:/home/kevo/ws_moveit2/install/moveit_setup_srdf_plugins:/home/kevo/ws_moveit2/install/moveit_setup_core_plugins:/home/kevo/ws_moveit2/install/moveit_setup_controllers:/home/kevo/ws_moveit2/install/moveit_setup_app_plugins:/home/kevo/ws_moveit2/install/moveit_setup_framework:/home/kevo/ws_moveit2/install/moveit_servo:/home/kevo/ws_moveit2/install/moveit_ros:/home/kevo/ws_moveit2/install/moveit_ros_visualization:/home/kevo/ws_moveit2/install/moveit_hybrid_planning:/home/kevo/ws_moveit2/install/moveit_ros_planning_interface:/home/kevo/ws_moveit2/install/moveit_ros_benchmarks:/home/kevo/ws_moveit2/install/moveit_ros_warehouse:/home/kevo/ws_moveit2/install/moveit_ros_robot_interaction:/home/kevo/ws_moveit2/install/moveit_ros_perception:/home/kevo/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/kevo/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/kevo/ws_moveit2/install/moveit_ros_move_group:/home/kevo/ws_moveit2/install/moveit_planners_ompl:/home/kevo/ws_moveit2/install/moveit_ros_planning:/home/kevo/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/kevo/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/kevo/ws_moveit2/install/moveit_planners_chomp:/home/kevo/ws_moveit2/install/moveit_kinematics:/home/kevo/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/kevo/ws_moveit2/install/chomp_motion_planner:/home/kevo/ws_moveit2/install/moveit_core:/home/kevo/ws_moveit2/install/srdfdom:/home/kevo/ws_moveit2/install/rviz_marker_tools:/home/kevo/ws_moveit2/install/rosparam_shortcuts:/home/kevo/ws_moveit2/install/moveit_task_constructor_msgs:/home/kevo/ws_moveit2/install/moveit_resources_prbt_support:/home/kevo/ws_moveit2/install/moveit_resources:/home/kevo/ws_moveit2/install/moveit_resources_pr2_description:/home/kevo/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/kevo/ws_moveit2/install/moveit_resources_panda_description:/home/kevo/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/kevo/ws_moveit2/install/moveit_resources_fanuc_description:/home/kevo/ws_moveit2/install/moveit_common:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[1.884780] (-) TimerEvent: {}
+[1.997645] (-) TimerEvent: {}
+[2.099255] (-) TimerEvent: {}
+[2.136989] (ros_arm_description) CommandEnded: {'returncode': 0}
+[2.200238] (-) TimerEvent: {}
+[2.253346] (hello_moveit) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hello_moveit\x1b[0m\n'}
+[2.301940] (-) TimerEvent: {}
+[2.411077] (ros_arm_description) JobProgress: {'identifier': 'ros_arm_description', 'progress': 'install'}
+[2.411347] (-) TimerEvent: {}
+[2.457162] (hello_moveit) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o\x1b[0m\n'}
+[2.512716] (ros_arm_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kevo/ros_ws/src/ros_arm/build/ros_arm_description'], 'cwd': '/home/kevo/ros_ws/src/ros_arm/build/ros_arm_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kevo'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kevo/ros2_ws/install/ros2_control_demo_example_6/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_5/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_4/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_3/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_2/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_14/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_10/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_1/lib:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/lib:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner_testutils/lib:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner/lib:/home/kevo/ws_moveit2/install/moveit_visual_tools/lib:/home/kevo/ws_moveit2/install/moveit_task_constructor_visualization/lib:/home/kevo/ws_moveit2/install/moveit_task_constructor_demo/lib:/home/kevo/ws_moveit2/install/moveit_task_constructor_capabilities/lib:/home/kevo/ws_moveit2/install/moveit_task_constructor_core/lib:/home/kevo/ws_moveit2/install/moveit_ros_control_interface/lib:/home/kevo/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/kevo/ws_moveit2/install/moveit_setup_assistant/lib:/home/kevo/ws_moveit2/install/moveit_setup_srdf_plugins/lib:/home/kevo/ws_moveit2/install/moveit_setup_core_plugins/lib:/home/kevo/ws_moveit2/install/moveit_setup_controllers/lib:/home/kevo/ws_moveit2/install/moveit_setup_app_plugins/lib:/home/kevo/ws_moveit2/install/moveit_setup_framework/lib:/home/kevo/ws_moveit2/install/moveit_servo/lib:/home/kevo/ws_moveit2/install/moveit_ros_visualization/lib:/home/kevo/ws_moveit2/install/moveit_hybrid_planning/lib:/home/kevo/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/kevo/ws_moveit2/install/moveit_ros_benchmarks/lib:/home/kevo/ws_moveit2/install/moveit_ros_warehouse/lib:/home/kevo/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/kevo/ws_moveit2/install/moveit_ros_perception/lib:/home/kevo/ws_moveit2/install/moveit_ros_move_group/lib:/home/kevo/ws_moveit2/install/moveit_planners_ompl/lib:/home/kevo/ws_moveit2/install/moveit_ros_planning/lib:/home/kevo/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/kevo/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/kevo/ws_moveit2/install/moveit_planners_chomp/lib:/home/kevo/ws_moveit2/install/moveit_kinematics/lib:/home/kevo/ws_moveit2/install/moveit_chomp_optimizer_adapter/lib:/home/kevo/ws_moveit2/install/chomp_motion_planner/lib:/home/kevo/ws_moveit2/install/moveit_core/lib:/home/kevo/ws_moveit2/install/srdfdom/lib:/home/kevo/ws_moveit2/install/rviz_marker_tools/lib:/home/kevo/ws_moveit2/install/rosparam_shortcuts/lib:/home/kevo/ws_moveit2/install/moveit_task_constructor_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/kevo'), ('OLDPWD', '/home/kevo'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kevo/ros_ws/src/ros_arm/install:/home/kevo/ros2_ws/install:/home/kevo/ws_moveit2/install:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kevo'), ('NAME', 'Kipkorir'), ('WSL_INTEROP', '/run/WSL/615_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/../../share/gazebo-11/models::/home/kevo/ros_ws/src/ros_arm/src'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/kevo/ws_moveit2/install/moveit_core/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2023a/runtime/win64:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/HP/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/MinGW/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config:/home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup:/home/kevo/ros_ws/src/ros_arm/install/ros_arm_description:/home/kevo/ros_ws/src/ros_arm/install/hello_moveit:/home/kevo/ros2_ws/install/ros2_control_demo_example_6:/home/kevo/ros2_ws/install/ros2_control_demo_example_5:/home/kevo/ros2_ws/install/ros2_control_demo_example_4:/home/kevo/ros2_ws/install/ros2_control_demo_example_3:/home/kevo/ros2_ws/install/ros2_control_demo_example_2:/home/kevo/ros2_ws/install/ros2_control_demo_example_14:/home/kevo/ros2_ws/install/ros2_control_demo_example_10:/home/kevo/ros2_ws/install/ros2_control_demo_example_1:/home/kevo/ros2_ws/install/ros2_control_demo_description:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_moveit_config:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/kevo/ws_moveit2/install/panda_moveit_config:/home/kevo/ws_moveit2/install/moveit_runtime:/home/kevo/ws_moveit2/install/moveit2_tutorials:/home/kevo/ws_moveit2/install/moveit:/home/kevo/ws_moveit2/install/moveit_planners:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner:/home/kevo/ws_moveit2/install/mtc_tutorial:/home/kevo/ws_moveit2/install/moveit_visual_tools:/home/kevo/ws_moveit2/install/moveit_task_constructor_visualization:/home/kevo/ws_moveit2/install/moveit_task_constructor_demo:/home/kevo/ws_moveit2/install/moveit_task_constructor_capabilities:/home/kevo/ws_moveit2/install/moveit_task_constructor_core:/home/kevo/ws_moveit2/install/moveit_ros_control_interface:/home/kevo/ws_moveit2/install/moveit_plugins:/home/kevo/ws_moveit2/install/moveit_simple_controller_manager:/home/kevo/ws_moveit2/install/moveit_setup_assistant:/home/kevo/ws_moveit2/install/moveit_setup_srdf_plugins:/home/kevo/ws_moveit2/install/moveit_setup_core_plugins:/home/kevo/ws_moveit2/install/moveit_setup_controllers:/home/kevo/ws_moveit2/install/moveit_setup_app_plugins:/home/kevo/ws_moveit2/install/moveit_setup_framework:/home/kevo/ws_moveit2/install/moveit_servo:/home/kevo/ws_moveit2/install/moveit_ros:/home/kevo/ws_moveit2/install/moveit_ros_visualization:/home/kevo/ws_moveit2/install/moveit_hybrid_planning:/home/kevo/ws_moveit2/install/moveit_ros_planning_interface:/home/kevo/ws_moveit2/install/moveit_ros_benchmarks:/home/kevo/ws_moveit2/install/moveit_ros_warehouse:/home/kevo/ws_moveit2/install/moveit_ros_robot_interaction:/home/kevo/ws_moveit2/install/moveit_ros_perception:/home/kevo/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/kevo/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/kevo/ws_moveit2/install/moveit_ros_move_group:/home/kevo/ws_moveit2/install/moveit_planners_ompl:/home/kevo/ws_moveit2/install/moveit_ros_planning:/home/kevo/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/kevo/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/kevo/ws_moveit2/install/moveit_planners_chomp:/home/kevo/ws_moveit2/install/moveit_kinematics:/home/kevo/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/kevo/ws_moveit2/install/chomp_motion_planner:/home/kevo/ws_moveit2/install/moveit_core:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/srdfdom:/home/kevo/ws_moveit2/install/rviz_marker_tools:/home/kevo/ws_moveit2/install/rosparam_shortcuts:/home/kevo/ws_moveit2/install/moveit_task_constructor_msgs:/home/kevo/ws_moveit2/install/moveit_resources_prbt_support:/home/kevo/ws_moveit2/install/moveit_resources:/home/kevo/ws_moveit2/install/moveit_resources_pr2_description:/home/kevo/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/kevo/ws_moveit2/install/moveit_resources_panda_description:/home/kevo/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/kevo/ws_moveit2/install/moveit_resources_fanuc_description:/home/kevo/ws_moveit2/install/moveit_common:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/kevo/ros_ws/src/ros_arm/build/ros_arm_description'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware/local/lib/python3.10/dist-packages:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages:/home/kevo/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/kevo/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/kevo/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/kevo/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config:/home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup:/home/kevo/ros_ws/src/ros_arm/install/ros_arm_description:/home/kevo/ros_ws/src/ros_arm/install/hello_moveit:/home/kevo/ros2_ws/install/ros2_control_demo_example_6:/home/kevo/ros2_ws/install/ros2_control_demo_example_5:/home/kevo/ros2_ws/install/ros2_control_demo_example_4:/home/kevo/ros2_ws/install/ros2_control_demo_example_3:/home/kevo/ros2_ws/install/ros2_control_demo_example_2:/home/kevo/ros2_ws/install/ros2_control_demo_example_14:/home/kevo/ros2_ws/install/ros2_control_demo_example_10:/home/kevo/ros2_ws/install/ros2_control_demo_example_1:/home/kevo/ros2_ws/install/ros2_control_demo_description:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_moveit_config:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/kevo/ws_moveit2/install/panda_moveit_config:/home/kevo/ws_moveit2/install/moveit_runtime:/home/kevo/ws_moveit2/install/moveit2_tutorials:/home/kevo/ws_moveit2/install/moveit:/home/kevo/ws_moveit2/install/moveit_planners:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner:/home/kevo/ws_moveit2/install/mtc_tutorial:/home/kevo/ws_moveit2/install/moveit_visual_tools:/home/kevo/ws_moveit2/install/moveit_task_constructor_visualization:/home/kevo/ws_moveit2/install/moveit_task_constructor_demo:/home/kevo/ws_moveit2/install/moveit_task_constructor_capabilities:/home/kevo/ws_moveit2/install/moveit_task_constructor_core:/home/kevo/ws_moveit2/install/moveit_ros_control_interface:/home/kevo/ws_moveit2/install/moveit_plugins:/home/kevo/ws_moveit2/install/moveit_simple_controller_manager:/home/kevo/ws_moveit2/install/moveit_setup_assistant:/home/kevo/ws_moveit2/install/moveit_setup_srdf_plugins:/home/kevo/ws_moveit2/install/moveit_setup_core_plugins:/home/kevo/ws_moveit2/install/moveit_setup_controllers:/home/kevo/ws_moveit2/install/moveit_setup_app_plugins:/home/kevo/ws_moveit2/install/moveit_setup_framework:/home/kevo/ws_moveit2/install/moveit_servo:/home/kevo/ws_moveit2/install/moveit_ros:/home/kevo/ws_moveit2/install/moveit_ros_visualization:/home/kevo/ws_moveit2/install/moveit_hybrid_planning:/home/kevo/ws_moveit2/install/moveit_ros_planning_interface:/home/kevo/ws_moveit2/install/moveit_ros_benchmarks:/home/kevo/ws_moveit2/install/moveit_ros_warehouse:/home/kevo/ws_moveit2/install/moveit_ros_robot_interaction:/home/kevo/ws_moveit2/install/moveit_ros_perception:/home/kevo/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/kevo/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/kevo/ws_moveit2/install/moveit_ros_move_group:/home/kevo/ws_moveit2/install/moveit_planners_ompl:/home/kevo/ws_moveit2/install/moveit_ros_planning:/home/kevo/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/kevo/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/kevo/ws_moveit2/install/moveit_planners_chomp:/home/kevo/ws_moveit2/install/moveit_kinematics:/home/kevo/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/kevo/ws_moveit2/install/chomp_motion_planner:/home/kevo/ws_moveit2/install/moveit_core:/home/kevo/ws_moveit2/install/srdfdom:/home/kevo/ws_moveit2/install/rviz_marker_tools:/home/kevo/ws_moveit2/install/rosparam_shortcuts:/home/kevo/ws_moveit2/install/moveit_task_constructor_msgs:/home/kevo/ws_moveit2/install/moveit_resources_prbt_support:/home/kevo/ws_moveit2/install/moveit_resources:/home/kevo/ws_moveit2/install/moveit_resources_pr2_description:/home/kevo/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/kevo/ws_moveit2/install/moveit_resources_panda_description:/home/kevo/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/kevo/ws_moveit2/install/moveit_resources_fanuc_description:/home/kevo/ws_moveit2/install/moveit_common:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[2.514697] (-) TimerEvent: {}
+[2.601765] (ros_arm_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.605656] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//urdf\n'}
+[2.606354] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//urdf/r6bot_description.urdf.xacro\n'}
+[2.606658] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//urdf/r6bot.urdf.xacro\n'}
+[2.606904] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//urdf/inc\n'}
+[2.607209] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//urdf/inc/create_link.xacro\n'}
+[2.607478] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//urdf/ros2_control.xacro\n'}
+[2.607929] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//r6bot\n'}
+[2.608241] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//r6bot/meshes\n'}
+[2.608462] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//r6bot/meshes/collision\n'}
+[2.608767] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//r6bot/meshes/collision/link_3.stl\n'}
+[2.609108] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//r6bot/meshes/collision/link_1.stl\n'}
+[2.609416] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//r6bot/meshes/collision/link_0.stl\n'}
+[2.609644] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//r6bot/meshes/collision/link_5.stl\n'}
+[2.609851] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//r6bot/meshes/collision/link_4.stl\n'}
+[2.610075] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//r6bot/meshes/collision/link_6.stl\n'}
+[2.610359] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//r6bot/meshes/collision/link_2.stl\n'}
+[2.610568] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//r6bot/meshes/visual\n'}
+[2.610792] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//r6bot/meshes/visual/link_0.dae\n'}
+[2.611014] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//r6bot/meshes/visual/link_1.dae\n'}
+[2.611893] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//r6bot/meshes/visual/link_6.dae\n'}
+[2.612663] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//r6bot/meshes/visual/link_5.dae\n'}
+[2.623409] (-) TimerEvent: {}
+[2.625448] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//r6bot/meshes/visual/link_2.dae\n'}
+[2.630584] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//r6bot/meshes/visual/link_4.dae\n'}
+[2.631257] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//r6bot/meshes/visual/link_3.dae\n'}
+[2.632833] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//launch\n'}
+[2.634313] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//launch/display.launch.xml\n'}
+[2.634699] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//rviz\n'}
+[2.635064] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//rviz/my_rviz.rviz\n'}
+[2.635655] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//config\n'}
+[2.636417] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//config/r6bot_controllers.yaml\n'}
+[2.636972] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ament_index/resource_index/package_run_dependencies/ros_arm_description\n'}
+[2.638143] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ament_index/resource_index/parent_prefix_path/ros_arm_description\n'}
+[2.638756] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description/environment/ament_prefix_path.sh\n'}
+[2.639291] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description/environment/ament_prefix_path.dsv\n'}
+[2.639759] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description/environment/path.sh\n'}
+[2.640534] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description/environment/path.dsv\n'}
+[2.641018] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description/local_setup.bash\n'}
+[2.652439] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description/local_setup.sh\n'}
+[2.655315] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description/local_setup.zsh\n'}
+[2.655750] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description/local_setup.dsv\n'}
+[2.656371] (ros_arm_description) StdoutLine: {'line': b'-- Installing: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description/package.dsv\n'}
+[2.657507] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ament_index/resource_index/packages/ros_arm_description\n'}
+[2.657995] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description/cmake/ros_arm_descriptionConfig.cmake\n'}
+[2.658422] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description/cmake/ros_arm_descriptionConfig-version.cmake\n'}
+[2.658849] (ros_arm_description) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description/package.xml\n'}
+[2.659304] (ros_arm_description) CommandEnded: {'returncode': 0}
+[2.732334] (-) TimerEvent: {}
+[2.833759] (-) TimerEvent: {}
+[2.940464] (-) TimerEvent: {}
+[3.043497] (-) TimerEvent: {}
+[3.164944] (-) TimerEvent: {}
+[3.272226] (-) TimerEvent: {}
+[3.375181] (-) TimerEvent: {}
+[3.477268] (-) TimerEvent: {}
+[3.582139] (-) TimerEvent: {}
+[3.684328] (-) TimerEvent: {}
+[3.810905] (-) TimerEvent: {}
+[3.919911] (-) TimerEvent: {}
+[4.026173] (-) TimerEvent: {}
+[4.134406] (-) TimerEvent: {}
+[4.146723] (ros_arm_description) JobEnded: {'identifier': 'ros_arm_description', 'rc': 0}
+[4.158555] (ros_arm_bringup) JobStarted: {'identifier': 'ros_arm_bringup'}
+[4.236542] (-) TimerEvent: {}
+[4.341426] (-) TimerEvent: {}
+[4.446566] (-) TimerEvent: {}
+[4.550089] (-) TimerEvent: {}
+[4.663123] (-) TimerEvent: {}
+[4.770209] (-) TimerEvent: {}
+[4.878135] (-) TimerEvent: {}
+[4.980221] (-) TimerEvent: {}
+[5.093800] (-) TimerEvent: {}
+[5.106948] (ros_arm_moveit_config) JobStarted: {'identifier': 'ros_arm_moveit_config'}
+[5.194285] (-) TimerEvent: {}
+[5.296778] (-) TimerEvent: {}
+[5.408850] (-) TimerEvent: {}
+[5.515172] (-) TimerEvent: {}
+[5.616952] (-) TimerEvent: {}
+[5.731592] (-) TimerEvent: {}
+[5.835030] (-) TimerEvent: {}
+[5.935727] (-) TimerEvent: {}
+[6.042320] (-) TimerEvent: {}
+[6.149885] (-) TimerEvent: {}
+[6.252730] (-) TimerEvent: {}
+[6.362140] (-) TimerEvent: {}
+[6.480327] (-) TimerEvent: {}
+[6.524929] (ros_arm_bringup) JobProgress: {'identifier': 'ros_arm_bringup', 'progress': 'cmake'}
+[6.537130] (ros_arm_bringup) JobProgress: {'identifier': 'ros_arm_bringup', 'progress': 'build'}
+[6.540967] (ros_arm_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kevo/ros_ws/src/ros_arm/build/ros_arm_bringup', '--', '-j8', '-l8'], 'cwd': '/home/kevo/ros_ws/src/ros_arm/build/ros_arm_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kevo'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kevo/ros2_ws/install/ros2_control_demo_example_6/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_5/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_4/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_3/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_2/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_14/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_10/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_1/lib:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/lib:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner_testutils/lib:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner/lib:/home/kevo/ws_moveit2/install/moveit_visual_tools/lib:/home/kevo/ws_moveit2/install/moveit_task_constructor_visualization/lib:/home/kevo/ws_moveit2/install/moveit_task_constructor_demo/lib:/home/kevo/ws_moveit2/install/moveit_task_constructor_capabilities/lib:/home/kevo/ws_moveit2/install/moveit_task_constructor_core/lib:/home/kevo/ws_moveit2/install/moveit_ros_control_interface/lib:/home/kevo/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/kevo/ws_moveit2/install/moveit_setup_assistant/lib:/home/kevo/ws_moveit2/install/moveit_setup_srdf_plugins/lib:/home/kevo/ws_moveit2/install/moveit_setup_core_plugins/lib:/home/kevo/ws_moveit2/install/moveit_setup_controllers/lib:/home/kevo/ws_moveit2/install/moveit_setup_app_plugins/lib:/home/kevo/ws_moveit2/install/moveit_setup_framework/lib:/home/kevo/ws_moveit2/install/moveit_servo/lib:/home/kevo/ws_moveit2/install/moveit_ros_visualization/lib:/home/kevo/ws_moveit2/install/moveit_hybrid_planning/lib:/home/kevo/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/kevo/ws_moveit2/install/moveit_ros_benchmarks/lib:/home/kevo/ws_moveit2/install/moveit_ros_warehouse/lib:/home/kevo/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/kevo/ws_moveit2/install/moveit_ros_perception/lib:/home/kevo/ws_moveit2/install/moveit_ros_move_group/lib:/home/kevo/ws_moveit2/install/moveit_planners_ompl/lib:/home/kevo/ws_moveit2/install/moveit_ros_planning/lib:/home/kevo/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/kevo/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/kevo/ws_moveit2/install/moveit_planners_chomp/lib:/home/kevo/ws_moveit2/install/moveit_kinematics/lib:/home/kevo/ws_moveit2/install/moveit_chomp_optimizer_adapter/lib:/home/kevo/ws_moveit2/install/chomp_motion_planner/lib:/home/kevo/ws_moveit2/install/moveit_core/lib:/home/kevo/ws_moveit2/install/srdfdom/lib:/home/kevo/ws_moveit2/install/rviz_marker_tools/lib:/home/kevo/ws_moveit2/install/rosparam_shortcuts/lib:/home/kevo/ws_moveit2/install/moveit_task_constructor_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/kevo'), ('OLDPWD', '/home/kevo'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kevo/ros_ws/src/ros_arm/install:/home/kevo/ros2_ws/install:/home/kevo/ws_moveit2/install:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kevo'), ('NAME', 'Kipkorir'), ('WSL_INTEROP', '/run/WSL/615_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/../../share/gazebo-11/models::/home/kevo/ros_ws/src/ros_arm/src'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/kevo/ws_moveit2/install/moveit_core/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2023a/runtime/win64:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/HP/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/MinGW/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config:/home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup:/home/kevo/ros_ws/src/ros_arm/install/ros_arm_description:/home/kevo/ros_ws/src/ros_arm/install/hello_moveit:/home/kevo/ros2_ws/install/ros2_control_demo_example_6:/home/kevo/ros2_ws/install/ros2_control_demo_example_5:/home/kevo/ros2_ws/install/ros2_control_demo_example_4:/home/kevo/ros2_ws/install/ros2_control_demo_example_3:/home/kevo/ros2_ws/install/ros2_control_demo_example_2:/home/kevo/ros2_ws/install/ros2_control_demo_example_14:/home/kevo/ros2_ws/install/ros2_control_demo_example_10:/home/kevo/ros2_ws/install/ros2_control_demo_example_1:/home/kevo/ros2_ws/install/ros2_control_demo_description:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_moveit_config:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/kevo/ws_moveit2/install/panda_moveit_config:/home/kevo/ws_moveit2/install/moveit_runtime:/home/kevo/ws_moveit2/install/moveit2_tutorials:/home/kevo/ws_moveit2/install/moveit:/home/kevo/ws_moveit2/install/moveit_planners:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner:/home/kevo/ws_moveit2/install/mtc_tutorial:/home/kevo/ws_moveit2/install/moveit_visual_tools:/home/kevo/ws_moveit2/install/moveit_task_constructor_visualization:/home/kevo/ws_moveit2/install/moveit_task_constructor_demo:/home/kevo/ws_moveit2/install/moveit_task_constructor_capabilities:/home/kevo/ws_moveit2/install/moveit_task_constructor_core:/home/kevo/ws_moveit2/install/moveit_ros_control_interface:/home/kevo/ws_moveit2/install/moveit_plugins:/home/kevo/ws_moveit2/install/moveit_simple_controller_manager:/home/kevo/ws_moveit2/install/moveit_setup_assistant:/home/kevo/ws_moveit2/install/moveit_setup_srdf_plugins:/home/kevo/ws_moveit2/install/moveit_setup_core_plugins:/home/kevo/ws_moveit2/install/moveit_setup_controllers:/home/kevo/ws_moveit2/install/moveit_setup_app_plugins:/home/kevo/ws_moveit2/install/moveit_setup_framework:/home/kevo/ws_moveit2/install/moveit_servo:/home/kevo/ws_moveit2/install/moveit_ros:/home/kevo/ws_moveit2/install/moveit_ros_visualization:/home/kevo/ws_moveit2/install/moveit_hybrid_planning:/home/kevo/ws_moveit2/install/moveit_ros_planning_interface:/home/kevo/ws_moveit2/install/moveit_ros_benchmarks:/home/kevo/ws_moveit2/install/moveit_ros_warehouse:/home/kevo/ws_moveit2/install/moveit_ros_robot_interaction:/home/kevo/ws_moveit2/install/moveit_ros_perception:/home/kevo/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/kevo/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/kevo/ws_moveit2/install/moveit_ros_move_group:/home/kevo/ws_moveit2/install/moveit_planners_ompl:/home/kevo/ws_moveit2/install/moveit_ros_planning:/home/kevo/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/kevo/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/kevo/ws_moveit2/install/moveit_planners_chomp:/home/kevo/ws_moveit2/install/moveit_kinematics:/home/kevo/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/kevo/ws_moveit2/install/chomp_motion_planner:/home/kevo/ws_moveit2/install/moveit_core:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/srdfdom:/home/kevo/ws_moveit2/install/rviz_marker_tools:/home/kevo/ws_moveit2/install/rosparam_shortcuts:/home/kevo/ws_moveit2/install/moveit_task_constructor_msgs:/home/kevo/ws_moveit2/install/moveit_resources_prbt_support:/home/kevo/ws_moveit2/install/moveit_resources:/home/kevo/ws_moveit2/install/moveit_resources_pr2_description:/home/kevo/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/kevo/ws_moveit2/install/moveit_resources_panda_description:/home/kevo/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/kevo/ws_moveit2/install/moveit_resources_fanuc_description:/home/kevo/ws_moveit2/install/moveit_common:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/kevo/ros_ws/src/ros_arm/build/ros_arm_bringup'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware/local/lib/python3.10/dist-packages:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages:/home/kevo/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/kevo/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/kevo/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/kevo/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/kevo/ros_ws/src/ros_arm/install/ros_arm_description:/home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config:/home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup:/home/kevo/ros_ws/src/ros_arm/install/hello_moveit:/home/kevo/ros2_ws/install/ros2_control_demo_example_6:/home/kevo/ros2_ws/install/ros2_control_demo_example_5:/home/kevo/ros2_ws/install/ros2_control_demo_example_4:/home/kevo/ros2_ws/install/ros2_control_demo_example_3:/home/kevo/ros2_ws/install/ros2_control_demo_example_2:/home/kevo/ros2_ws/install/ros2_control_demo_example_14:/home/kevo/ros2_ws/install/ros2_control_demo_example_10:/home/kevo/ros2_ws/install/ros2_control_demo_example_1:/home/kevo/ros2_ws/install/ros2_control_demo_description:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_moveit_config:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/kevo/ws_moveit2/install/panda_moveit_config:/home/kevo/ws_moveit2/install/moveit_runtime:/home/kevo/ws_moveit2/install/moveit2_tutorials:/home/kevo/ws_moveit2/install/moveit:/home/kevo/ws_moveit2/install/moveit_planners:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner:/home/kevo/ws_moveit2/install/mtc_tutorial:/home/kevo/ws_moveit2/install/moveit_visual_tools:/home/kevo/ws_moveit2/install/moveit_task_constructor_visualization:/home/kevo/ws_moveit2/install/moveit_task_constructor_demo:/home/kevo/ws_moveit2/install/moveit_task_constructor_capabilities:/home/kevo/ws_moveit2/install/moveit_task_constructor_core:/home/kevo/ws_moveit2/install/moveit_ros_control_interface:/home/kevo/ws_moveit2/install/moveit_plugins:/home/kevo/ws_moveit2/install/moveit_simple_controller_manager:/home/kevo/ws_moveit2/install/moveit_setup_assistant:/home/kevo/ws_moveit2/install/moveit_setup_srdf_plugins:/home/kevo/ws_moveit2/install/moveit_setup_core_plugins:/home/kevo/ws_moveit2/install/moveit_setup_controllers:/home/kevo/ws_moveit2/install/moveit_setup_app_plugins:/home/kevo/ws_moveit2/install/moveit_setup_framework:/home/kevo/ws_moveit2/install/moveit_servo:/home/kevo/ws_moveit2/install/moveit_ros:/home/kevo/ws_moveit2/install/moveit_ros_visualization:/home/kevo/ws_moveit2/install/moveit_hybrid_planning:/home/kevo/ws_moveit2/install/moveit_ros_planning_interface:/home/kevo/ws_moveit2/install/moveit_ros_benchmarks:/home/kevo/ws_moveit2/install/moveit_ros_warehouse:/home/kevo/ws_moveit2/install/moveit_ros_robot_interaction:/home/kevo/ws_moveit2/install/moveit_ros_perception:/home/kevo/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/kevo/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/kevo/ws_moveit2/install/moveit_ros_move_group:/home/kevo/ws_moveit2/install/moveit_planners_ompl:/home/kevo/ws_moveit2/install/moveit_ros_planning:/home/kevo/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/kevo/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/kevo/ws_moveit2/install/moveit_planners_chomp:/home/kevo/ws_moveit2/install/moveit_kinematics:/home/kevo/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/kevo/ws_moveit2/install/chomp_motion_planner:/home/kevo/ws_moveit2/install/moveit_core:/home/kevo/ws_moveit2/install/srdfdom:/home/kevo/ws_moveit2/install/rviz_marker_tools:/home/kevo/ws_moveit2/install/rosparam_shortcuts:/home/kevo/ws_moveit2/install/moveit_task_constructor_msgs:/home/kevo/ws_moveit2/install/moveit_resources_prbt_support:/home/kevo/ws_moveit2/install/moveit_resources:/home/kevo/ws_moveit2/install/moveit_resources_pr2_description:/home/kevo/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/kevo/ws_moveit2/install/moveit_resources_panda_description:/home/kevo/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/kevo/ws_moveit2/install/moveit_resources_fanuc_description:/home/kevo/ws_moveit2/install/moveit_common:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[6.589078] (-) TimerEvent: {}
+[6.690088] (-) TimerEvent: {}
+[6.792237] (-) TimerEvent: {}
+[6.894243] (-) TimerEvent: {}
+[6.989472] (ros_arm_bringup) CommandEnded: {'returncode': 0}
+[6.999460] (-) TimerEvent: {}
+[7.101322] (-) TimerEvent: {}
+[7.161005] (ros_arm_bringup) JobProgress: {'identifier': 'ros_arm_bringup', 'progress': 'install'}
+[7.168280] (ros_arm_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kevo/ros_ws/src/ros_arm/build/ros_arm_bringup'], 'cwd': '/home/kevo/ros_ws/src/ros_arm/build/ros_arm_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kevo'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kevo/ros2_ws/install/ros2_control_demo_example_6/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_5/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_4/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_3/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_2/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_14/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_10/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_1/lib:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/lib:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner_testutils/lib:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner/lib:/home/kevo/ws_moveit2/install/moveit_visual_tools/lib:/home/kevo/ws_moveit2/install/moveit_task_constructor_visualization/lib:/home/kevo/ws_moveit2/install/moveit_task_constructor_demo/lib:/home/kevo/ws_moveit2/install/moveit_task_constructor_capabilities/lib:/home/kevo/ws_moveit2/install/moveit_task_constructor_core/lib:/home/kevo/ws_moveit2/install/moveit_ros_control_interface/lib:/home/kevo/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/kevo/ws_moveit2/install/moveit_setup_assistant/lib:/home/kevo/ws_moveit2/install/moveit_setup_srdf_plugins/lib:/home/kevo/ws_moveit2/install/moveit_setup_core_plugins/lib:/home/kevo/ws_moveit2/install/moveit_setup_controllers/lib:/home/kevo/ws_moveit2/install/moveit_setup_app_plugins/lib:/home/kevo/ws_moveit2/install/moveit_setup_framework/lib:/home/kevo/ws_moveit2/install/moveit_servo/lib:/home/kevo/ws_moveit2/install/moveit_ros_visualization/lib:/home/kevo/ws_moveit2/install/moveit_hybrid_planning/lib:/home/kevo/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/kevo/ws_moveit2/install/moveit_ros_benchmarks/lib:/home/kevo/ws_moveit2/install/moveit_ros_warehouse/lib:/home/kevo/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/kevo/ws_moveit2/install/moveit_ros_perception/lib:/home/kevo/ws_moveit2/install/moveit_ros_move_group/lib:/home/kevo/ws_moveit2/install/moveit_planners_ompl/lib:/home/kevo/ws_moveit2/install/moveit_ros_planning/lib:/home/kevo/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/kevo/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/kevo/ws_moveit2/install/moveit_planners_chomp/lib:/home/kevo/ws_moveit2/install/moveit_kinematics/lib:/home/kevo/ws_moveit2/install/moveit_chomp_optimizer_adapter/lib:/home/kevo/ws_moveit2/install/chomp_motion_planner/lib:/home/kevo/ws_moveit2/install/moveit_core/lib:/home/kevo/ws_moveit2/install/srdfdom/lib:/home/kevo/ws_moveit2/install/rviz_marker_tools/lib:/home/kevo/ws_moveit2/install/rosparam_shortcuts/lib:/home/kevo/ws_moveit2/install/moveit_task_constructor_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/kevo'), ('OLDPWD', '/home/kevo'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kevo/ros_ws/src/ros_arm/install:/home/kevo/ros2_ws/install:/home/kevo/ws_moveit2/install:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kevo'), ('NAME', 'Kipkorir'), ('WSL_INTEROP', '/run/WSL/615_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/../../share/gazebo-11/models::/home/kevo/ros_ws/src/ros_arm/src'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/kevo/ws_moveit2/install/moveit_core/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2023a/runtime/win64:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/HP/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/MinGW/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config:/home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup:/home/kevo/ros_ws/src/ros_arm/install/ros_arm_description:/home/kevo/ros_ws/src/ros_arm/install/hello_moveit:/home/kevo/ros2_ws/install/ros2_control_demo_example_6:/home/kevo/ros2_ws/install/ros2_control_demo_example_5:/home/kevo/ros2_ws/install/ros2_control_demo_example_4:/home/kevo/ros2_ws/install/ros2_control_demo_example_3:/home/kevo/ros2_ws/install/ros2_control_demo_example_2:/home/kevo/ros2_ws/install/ros2_control_demo_example_14:/home/kevo/ros2_ws/install/ros2_control_demo_example_10:/home/kevo/ros2_ws/install/ros2_control_demo_example_1:/home/kevo/ros2_ws/install/ros2_control_demo_description:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_moveit_config:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/kevo/ws_moveit2/install/panda_moveit_config:/home/kevo/ws_moveit2/install/moveit_runtime:/home/kevo/ws_moveit2/install/moveit2_tutorials:/home/kevo/ws_moveit2/install/moveit:/home/kevo/ws_moveit2/install/moveit_planners:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner:/home/kevo/ws_moveit2/install/mtc_tutorial:/home/kevo/ws_moveit2/install/moveit_visual_tools:/home/kevo/ws_moveit2/install/moveit_task_constructor_visualization:/home/kevo/ws_moveit2/install/moveit_task_constructor_demo:/home/kevo/ws_moveit2/install/moveit_task_constructor_capabilities:/home/kevo/ws_moveit2/install/moveit_task_constructor_core:/home/kevo/ws_moveit2/install/moveit_ros_control_interface:/home/kevo/ws_moveit2/install/moveit_plugins:/home/kevo/ws_moveit2/install/moveit_simple_controller_manager:/home/kevo/ws_moveit2/install/moveit_setup_assistant:/home/kevo/ws_moveit2/install/moveit_setup_srdf_plugins:/home/kevo/ws_moveit2/install/moveit_setup_core_plugins:/home/kevo/ws_moveit2/install/moveit_setup_controllers:/home/kevo/ws_moveit2/install/moveit_setup_app_plugins:/home/kevo/ws_moveit2/install/moveit_setup_framework:/home/kevo/ws_moveit2/install/moveit_servo:/home/kevo/ws_moveit2/install/moveit_ros:/home/kevo/ws_moveit2/install/moveit_ros_visualization:/home/kevo/ws_moveit2/install/moveit_hybrid_planning:/home/kevo/ws_moveit2/install/moveit_ros_planning_interface:/home/kevo/ws_moveit2/install/moveit_ros_benchmarks:/home/kevo/ws_moveit2/install/moveit_ros_warehouse:/home/kevo/ws_moveit2/install/moveit_ros_robot_interaction:/home/kevo/ws_moveit2/install/moveit_ros_perception:/home/kevo/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/kevo/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/kevo/ws_moveit2/install/moveit_ros_move_group:/home/kevo/ws_moveit2/install/moveit_planners_ompl:/home/kevo/ws_moveit2/install/moveit_ros_planning:/home/kevo/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/kevo/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/kevo/ws_moveit2/install/moveit_planners_chomp:/home/kevo/ws_moveit2/install/moveit_kinematics:/home/kevo/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/kevo/ws_moveit2/install/chomp_motion_planner:/home/kevo/ws_moveit2/install/moveit_core:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/srdfdom:/home/kevo/ws_moveit2/install/rviz_marker_tools:/home/kevo/ws_moveit2/install/rosparam_shortcuts:/home/kevo/ws_moveit2/install/moveit_task_constructor_msgs:/home/kevo/ws_moveit2/install/moveit_resources_prbt_support:/home/kevo/ws_moveit2/install/moveit_resources:/home/kevo/ws_moveit2/install/moveit_resources_pr2_description:/home/kevo/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/kevo/ws_moveit2/install/moveit_resources_panda_description:/home/kevo/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/kevo/ws_moveit2/install/moveit_resources_fanuc_description:/home/kevo/ws_moveit2/install/moveit_common:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/kevo/ros_ws/src/ros_arm/build/ros_arm_bringup'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware/local/lib/python3.10/dist-packages:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages:/home/kevo/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/kevo/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/kevo/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/kevo/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/kevo/ros_ws/src/ros_arm/install/ros_arm_description:/home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config:/home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup:/home/kevo/ros_ws/src/ros_arm/install/hello_moveit:/home/kevo/ros2_ws/install/ros2_control_demo_example_6:/home/kevo/ros2_ws/install/ros2_control_demo_example_5:/home/kevo/ros2_ws/install/ros2_control_demo_example_4:/home/kevo/ros2_ws/install/ros2_control_demo_example_3:/home/kevo/ros2_ws/install/ros2_control_demo_example_2:/home/kevo/ros2_ws/install/ros2_control_demo_example_14:/home/kevo/ros2_ws/install/ros2_control_demo_example_10:/home/kevo/ros2_ws/install/ros2_control_demo_example_1:/home/kevo/ros2_ws/install/ros2_control_demo_description:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_moveit_config:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/kevo/ws_moveit2/install/panda_moveit_config:/home/kevo/ws_moveit2/install/moveit_runtime:/home/kevo/ws_moveit2/install/moveit2_tutorials:/home/kevo/ws_moveit2/install/moveit:/home/kevo/ws_moveit2/install/moveit_planners:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner:/home/kevo/ws_moveit2/install/mtc_tutorial:/home/kevo/ws_moveit2/install/moveit_visual_tools:/home/kevo/ws_moveit2/install/moveit_task_constructor_visualization:/home/kevo/ws_moveit2/install/moveit_task_constructor_demo:/home/kevo/ws_moveit2/install/moveit_task_constructor_capabilities:/home/kevo/ws_moveit2/install/moveit_task_constructor_core:/home/kevo/ws_moveit2/install/moveit_ros_control_interface:/home/kevo/ws_moveit2/install/moveit_plugins:/home/kevo/ws_moveit2/install/moveit_simple_controller_manager:/home/kevo/ws_moveit2/install/moveit_setup_assistant:/home/kevo/ws_moveit2/install/moveit_setup_srdf_plugins:/home/kevo/ws_moveit2/install/moveit_setup_core_plugins:/home/kevo/ws_moveit2/install/moveit_setup_controllers:/home/kevo/ws_moveit2/install/moveit_setup_app_plugins:/home/kevo/ws_moveit2/install/moveit_setup_framework:/home/kevo/ws_moveit2/install/moveit_servo:/home/kevo/ws_moveit2/install/moveit_ros:/home/kevo/ws_moveit2/install/moveit_ros_visualization:/home/kevo/ws_moveit2/install/moveit_hybrid_planning:/home/kevo/ws_moveit2/install/moveit_ros_planning_interface:/home/kevo/ws_moveit2/install/moveit_ros_benchmarks:/home/kevo/ws_moveit2/install/moveit_ros_warehouse:/home/kevo/ws_moveit2/install/moveit_ros_robot_interaction:/home/kevo/ws_moveit2/install/moveit_ros_perception:/home/kevo/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/kevo/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/kevo/ws_moveit2/install/moveit_ros_move_group:/home/kevo/ws_moveit2/install/moveit_planners_ompl:/home/kevo/ws_moveit2/install/moveit_ros_planning:/home/kevo/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/kevo/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/kevo/ws_moveit2/install/moveit_planners_chomp:/home/kevo/ws_moveit2/install/moveit_kinematics:/home/kevo/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/kevo/ws_moveit2/install/chomp_motion_planner:/home/kevo/ws_moveit2/install/moveit_core:/home/kevo/ws_moveit2/install/srdfdom:/home/kevo/ws_moveit2/install/rviz_marker_tools:/home/kevo/ws_moveit2/install/rosparam_shortcuts:/home/kevo/ws_moveit2/install/moveit_task_constructor_msgs:/home/kevo/ws_moveit2/install/moveit_resources_prbt_support:/home/kevo/ws_moveit2/install/moveit_resources:/home/kevo/ws_moveit2/install/moveit_resources_pr2_description:/home/kevo/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/kevo/ws_moveit2/install/moveit_resources_panda_description:/home/kevo/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/kevo/ws_moveit2/install/moveit_resources_fanuc_description:/home/kevo/ws_moveit2/install/moveit_common:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[7.201639] (-) TimerEvent: {}
+[7.220528] (ros_arm_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.225186] (ros_arm_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup//launch\n'}
+[7.229939] (ros_arm_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup//launch/gazebo.launch.xml\n'}
+[7.254155] (ros_arm_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup//launch/controllers.launch.py\n'}
+[7.257367] (ros_arm_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ament_index/resource_index/package_run_dependencies/ros_arm_bringup\n'}
+[7.257928] (ros_arm_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ament_index/resource_index/parent_prefix_path/ros_arm_bringup\n'}
+[7.258746] (ros_arm_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup/environment/ament_prefix_path.sh\n'}
+[7.259293] (ros_arm_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup/environment/ament_prefix_path.dsv\n'}
+[7.259716] (ros_arm_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup/environment/path.sh\n'}
+[7.260142] (ros_arm_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup/environment/path.dsv\n'}
+[7.266433] (ros_arm_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup/local_setup.bash\n'}
+[7.274611] (ros_arm_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup/local_setup.sh\n'}
+[7.275208] (ros_arm_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup/local_setup.zsh\n'}
+[7.276432] (ros_arm_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup/local_setup.dsv\n'}
+[7.277640] (ros_arm_bringup) StdoutLine: {'line': b'-- Installing: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup/package.dsv\n'}
+[7.279069] (ros_arm_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ament_index/resource_index/packages/ros_arm_bringup\n'}
+[7.280186] (ros_arm_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup/cmake/ros_arm_bringupConfig.cmake\n'}
+[7.280929] (ros_arm_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup/cmake/ros_arm_bringupConfig-version.cmake\n'}
+[7.290616] (ros_arm_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup/package.xml\n'}
+[7.299978] (ros_arm_moveit_config) JobProgress: {'identifier': 'ros_arm_moveit_config', 'progress': 'cmake'}
+[7.300133] (ros_arm_moveit_config) JobProgress: {'identifier': 'ros_arm_moveit_config', 'progress': 'build'}
+[7.300432] (ros_arm_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kevo/ros_ws/src/ros_arm/build/ros_arm_moveit_config', '--', '-j8', '-l8'], 'cwd': '/home/kevo/ros_ws/src/ros_arm/build/ros_arm_moveit_config', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kevo'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kevo/ros2_ws/install/ros2_control_demo_example_6/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_5/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_4/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_3/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_2/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_14/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_10/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_1/lib:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/lib:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner_testutils/lib:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner/lib:/home/kevo/ws_moveit2/install/moveit_visual_tools/lib:/home/kevo/ws_moveit2/install/moveit_task_constructor_visualization/lib:/home/kevo/ws_moveit2/install/moveit_task_constructor_demo/lib:/home/kevo/ws_moveit2/install/moveit_task_constructor_capabilities/lib:/home/kevo/ws_moveit2/install/moveit_task_constructor_core/lib:/home/kevo/ws_moveit2/install/moveit_ros_control_interface/lib:/home/kevo/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/kevo/ws_moveit2/install/moveit_setup_assistant/lib:/home/kevo/ws_moveit2/install/moveit_setup_srdf_plugins/lib:/home/kevo/ws_moveit2/install/moveit_setup_core_plugins/lib:/home/kevo/ws_moveit2/install/moveit_setup_controllers/lib:/home/kevo/ws_moveit2/install/moveit_setup_app_plugins/lib:/home/kevo/ws_moveit2/install/moveit_setup_framework/lib:/home/kevo/ws_moveit2/install/moveit_servo/lib:/home/kevo/ws_moveit2/install/moveit_ros_visualization/lib:/home/kevo/ws_moveit2/install/moveit_hybrid_planning/lib:/home/kevo/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/kevo/ws_moveit2/install/moveit_ros_benchmarks/lib:/home/kevo/ws_moveit2/install/moveit_ros_warehouse/lib:/home/kevo/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/kevo/ws_moveit2/install/moveit_ros_perception/lib:/home/kevo/ws_moveit2/install/moveit_ros_move_group/lib:/home/kevo/ws_moveit2/install/moveit_planners_ompl/lib:/home/kevo/ws_moveit2/install/moveit_ros_planning/lib:/home/kevo/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/kevo/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/kevo/ws_moveit2/install/moveit_planners_chomp/lib:/home/kevo/ws_moveit2/install/moveit_kinematics/lib:/home/kevo/ws_moveit2/install/moveit_chomp_optimizer_adapter/lib:/home/kevo/ws_moveit2/install/chomp_motion_planner/lib:/home/kevo/ws_moveit2/install/moveit_core/lib:/home/kevo/ws_moveit2/install/srdfdom/lib:/home/kevo/ws_moveit2/install/rviz_marker_tools/lib:/home/kevo/ws_moveit2/install/rosparam_shortcuts/lib:/home/kevo/ws_moveit2/install/moveit_task_constructor_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/kevo'), ('OLDPWD', '/home/kevo'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kevo/ros_ws/src/ros_arm/install:/home/kevo/ros2_ws/install:/home/kevo/ws_moveit2/install:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kevo'), ('NAME', 'Kipkorir'), ('WSL_INTEROP', '/run/WSL/615_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/../../share/gazebo-11/models::/home/kevo/ros_ws/src/ros_arm/src'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/kevo/ws_moveit2/install/moveit_core/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2023a/runtime/win64:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/HP/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/MinGW/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config:/home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup:/home/kevo/ros_ws/src/ros_arm/install/ros_arm_description:/home/kevo/ros_ws/src/ros_arm/install/hello_moveit:/home/kevo/ros2_ws/install/ros2_control_demo_example_6:/home/kevo/ros2_ws/install/ros2_control_demo_example_5:/home/kevo/ros2_ws/install/ros2_control_demo_example_4:/home/kevo/ros2_ws/install/ros2_control_demo_example_3:/home/kevo/ros2_ws/install/ros2_control_demo_example_2:/home/kevo/ros2_ws/install/ros2_control_demo_example_14:/home/kevo/ros2_ws/install/ros2_control_demo_example_10:/home/kevo/ros2_ws/install/ros2_control_demo_example_1:/home/kevo/ros2_ws/install/ros2_control_demo_description:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_moveit_config:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/kevo/ws_moveit2/install/panda_moveit_config:/home/kevo/ws_moveit2/install/moveit_runtime:/home/kevo/ws_moveit2/install/moveit2_tutorials:/home/kevo/ws_moveit2/install/moveit:/home/kevo/ws_moveit2/install/moveit_planners:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner:/home/kevo/ws_moveit2/install/mtc_tutorial:/home/kevo/ws_moveit2/install/moveit_visual_tools:/home/kevo/ws_moveit2/install/moveit_task_constructor_visualization:/home/kevo/ws_moveit2/install/moveit_task_constructor_demo:/home/kevo/ws_moveit2/install/moveit_task_constructor_capabilities:/home/kevo/ws_moveit2/install/moveit_task_constructor_core:/home/kevo/ws_moveit2/install/moveit_ros_control_interface:/home/kevo/ws_moveit2/install/moveit_plugins:/home/kevo/ws_moveit2/install/moveit_simple_controller_manager:/home/kevo/ws_moveit2/install/moveit_setup_assistant:/home/kevo/ws_moveit2/install/moveit_setup_srdf_plugins:/home/kevo/ws_moveit2/install/moveit_setup_core_plugins:/home/kevo/ws_moveit2/install/moveit_setup_controllers:/home/kevo/ws_moveit2/install/moveit_setup_app_plugins:/home/kevo/ws_moveit2/install/moveit_setup_framework:/home/kevo/ws_moveit2/install/moveit_servo:/home/kevo/ws_moveit2/install/moveit_ros:/home/kevo/ws_moveit2/install/moveit_ros_visualization:/home/kevo/ws_moveit2/install/moveit_hybrid_planning:/home/kevo/ws_moveit2/install/moveit_ros_planning_interface:/home/kevo/ws_moveit2/install/moveit_ros_benchmarks:/home/kevo/ws_moveit2/install/moveit_ros_warehouse:/home/kevo/ws_moveit2/install/moveit_ros_robot_interaction:/home/kevo/ws_moveit2/install/moveit_ros_perception:/home/kevo/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/kevo/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/kevo/ws_moveit2/install/moveit_ros_move_group:/home/kevo/ws_moveit2/install/moveit_planners_ompl:/home/kevo/ws_moveit2/install/moveit_ros_planning:/home/kevo/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/kevo/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/kevo/ws_moveit2/install/moveit_planners_chomp:/home/kevo/ws_moveit2/install/moveit_kinematics:/home/kevo/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/kevo/ws_moveit2/install/chomp_motion_planner:/home/kevo/ws_moveit2/install/moveit_core:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/srdfdom:/home/kevo/ws_moveit2/install/rviz_marker_tools:/home/kevo/ws_moveit2/install/rosparam_shortcuts:/home/kevo/ws_moveit2/install/moveit_task_constructor_msgs:/home/kevo/ws_moveit2/install/moveit_resources_prbt_support:/home/kevo/ws_moveit2/install/moveit_resources:/home/kevo/ws_moveit2/install/moveit_resources_pr2_description:/home/kevo/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/kevo/ws_moveit2/install/moveit_resources_panda_description:/home/kevo/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/kevo/ws_moveit2/install/moveit_resources_fanuc_description:/home/kevo/ws_moveit2/install/moveit_common:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/kevo/ros_ws/src/ros_arm/build/ros_arm_moveit_config'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware/local/lib/python3.10/dist-packages:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages:/home/kevo/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/kevo/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/kevo/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/kevo/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/kevo/ros_ws/src/ros_arm/install/ros_arm_description:/home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config:/home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup:/home/kevo/ros_ws/src/ros_arm/install/hello_moveit:/home/kevo/ros2_ws/install/ros2_control_demo_example_6:/home/kevo/ros2_ws/install/ros2_control_demo_example_5:/home/kevo/ros2_ws/install/ros2_control_demo_example_4:/home/kevo/ros2_ws/install/ros2_control_demo_example_3:/home/kevo/ros2_ws/install/ros2_control_demo_example_2:/home/kevo/ros2_ws/install/ros2_control_demo_example_14:/home/kevo/ros2_ws/install/ros2_control_demo_example_10:/home/kevo/ros2_ws/install/ros2_control_demo_example_1:/home/kevo/ros2_ws/install/ros2_control_demo_description:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_moveit_config:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/kevo/ws_moveit2/install/panda_moveit_config:/home/kevo/ws_moveit2/install/moveit_runtime:/home/kevo/ws_moveit2/install/moveit2_tutorials:/home/kevo/ws_moveit2/install/moveit:/home/kevo/ws_moveit2/install/moveit_planners:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner:/home/kevo/ws_moveit2/install/mtc_tutorial:/home/kevo/ws_moveit2/install/moveit_visual_tools:/home/kevo/ws_moveit2/install/moveit_task_constructor_visualization:/home/kevo/ws_moveit2/install/moveit_task_constructor_demo:/home/kevo/ws_moveit2/install/moveit_task_constructor_capabilities:/home/kevo/ws_moveit2/install/moveit_task_constructor_core:/home/kevo/ws_moveit2/install/moveit_ros_control_interface:/home/kevo/ws_moveit2/install/moveit_plugins:/home/kevo/ws_moveit2/install/moveit_simple_controller_manager:/home/kevo/ws_moveit2/install/moveit_setup_assistant:/home/kevo/ws_moveit2/install/moveit_setup_srdf_plugins:/home/kevo/ws_moveit2/install/moveit_setup_core_plugins:/home/kevo/ws_moveit2/install/moveit_setup_controllers:/home/kevo/ws_moveit2/install/moveit_setup_app_plugins:/home/kevo/ws_moveit2/install/moveit_setup_framework:/home/kevo/ws_moveit2/install/moveit_servo:/home/kevo/ws_moveit2/install/moveit_ros:/home/kevo/ws_moveit2/install/moveit_ros_visualization:/home/kevo/ws_moveit2/install/moveit_hybrid_planning:/home/kevo/ws_moveit2/install/moveit_ros_planning_interface:/home/kevo/ws_moveit2/install/moveit_ros_benchmarks:/home/kevo/ws_moveit2/install/moveit_ros_warehouse:/home/kevo/ws_moveit2/install/moveit_ros_robot_interaction:/home/kevo/ws_moveit2/install/moveit_ros_perception:/home/kevo/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/kevo/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/kevo/ws_moveit2/install/moveit_ros_move_group:/home/kevo/ws_moveit2/install/moveit_planners_ompl:/home/kevo/ws_moveit2/install/moveit_ros_planning:/home/kevo/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/kevo/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/kevo/ws_moveit2/install/moveit_planners_chomp:/home/kevo/ws_moveit2/install/moveit_kinematics:/home/kevo/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/kevo/ws_moveit2/install/chomp_motion_planner:/home/kevo/ws_moveit2/install/moveit_core:/home/kevo/ws_moveit2/install/srdfdom:/home/kevo/ws_moveit2/install/rviz_marker_tools:/home/kevo/ws_moveit2/install/rosparam_shortcuts:/home/kevo/ws_moveit2/install/moveit_task_constructor_msgs:/home/kevo/ws_moveit2/install/moveit_resources_prbt_support:/home/kevo/ws_moveit2/install/moveit_resources:/home/kevo/ws_moveit2/install/moveit_resources_pr2_description:/home/kevo/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/kevo/ws_moveit2/install/moveit_resources_panda_description:/home/kevo/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/kevo/ws_moveit2/install/moveit_resources_fanuc_description:/home/kevo/ws_moveit2/install/moveit_common:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[7.316630] (-) TimerEvent: {}
+[7.331550] (ros_arm_bringup) CommandEnded: {'returncode': 0}
+[7.416916] (-) TimerEvent: {}
+[7.526600] (-) TimerEvent: {}
+[7.634124] (-) TimerEvent: {}
+[7.736886] (-) TimerEvent: {}
+[7.841221] (-) TimerEvent: {}
+[7.866196] (ros_arm_moveit_config) CommandEnded: {'returncode': 0}
+[7.941882] (-) TimerEvent: {}
+[8.051618] (-) TimerEvent: {}
+[8.154500] (-) TimerEvent: {}
+[8.261431] (-) TimerEvent: {}
+[8.364175] (-) TimerEvent: {}
+[8.468408] (-) TimerEvent: {}
+[8.577632] (-) TimerEvent: {}
+[8.684153] (-) TimerEvent: {}
+[8.688056] (ros_arm_bringup) JobEnded: {'identifier': 'ros_arm_bringup', 'rc': 0}
+[8.697095] (ros_arm_moveit_config) JobProgress: {'identifier': 'ros_arm_moveit_config', 'progress': 'install'}
+[8.697714] (ros_arm_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kevo/ros_ws/src/ros_arm/build/ros_arm_moveit_config'], 'cwd': '/home/kevo/ros_ws/src/ros_arm/build/ros_arm_moveit_config', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kevo'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kevo/ros2_ws/install/ros2_control_demo_example_6/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_5/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_4/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_3/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_2/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_14/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_10/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_1/lib:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/lib:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner_testutils/lib:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner/lib:/home/kevo/ws_moveit2/install/moveit_visual_tools/lib:/home/kevo/ws_moveit2/install/moveit_task_constructor_visualization/lib:/home/kevo/ws_moveit2/install/moveit_task_constructor_demo/lib:/home/kevo/ws_moveit2/install/moveit_task_constructor_capabilities/lib:/home/kevo/ws_moveit2/install/moveit_task_constructor_core/lib:/home/kevo/ws_moveit2/install/moveit_ros_control_interface/lib:/home/kevo/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/kevo/ws_moveit2/install/moveit_setup_assistant/lib:/home/kevo/ws_moveit2/install/moveit_setup_srdf_plugins/lib:/home/kevo/ws_moveit2/install/moveit_setup_core_plugins/lib:/home/kevo/ws_moveit2/install/moveit_setup_controllers/lib:/home/kevo/ws_moveit2/install/moveit_setup_app_plugins/lib:/home/kevo/ws_moveit2/install/moveit_setup_framework/lib:/home/kevo/ws_moveit2/install/moveit_servo/lib:/home/kevo/ws_moveit2/install/moveit_ros_visualization/lib:/home/kevo/ws_moveit2/install/moveit_hybrid_planning/lib:/home/kevo/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/kevo/ws_moveit2/install/moveit_ros_benchmarks/lib:/home/kevo/ws_moveit2/install/moveit_ros_warehouse/lib:/home/kevo/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/kevo/ws_moveit2/install/moveit_ros_perception/lib:/home/kevo/ws_moveit2/install/moveit_ros_move_group/lib:/home/kevo/ws_moveit2/install/moveit_planners_ompl/lib:/home/kevo/ws_moveit2/install/moveit_ros_planning/lib:/home/kevo/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/kevo/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/kevo/ws_moveit2/install/moveit_planners_chomp/lib:/home/kevo/ws_moveit2/install/moveit_kinematics/lib:/home/kevo/ws_moveit2/install/moveit_chomp_optimizer_adapter/lib:/home/kevo/ws_moveit2/install/chomp_motion_planner/lib:/home/kevo/ws_moveit2/install/moveit_core/lib:/home/kevo/ws_moveit2/install/srdfdom/lib:/home/kevo/ws_moveit2/install/rviz_marker_tools/lib:/home/kevo/ws_moveit2/install/rosparam_shortcuts/lib:/home/kevo/ws_moveit2/install/moveit_task_constructor_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/kevo'), ('OLDPWD', '/home/kevo'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kevo/ros_ws/src/ros_arm/install:/home/kevo/ros2_ws/install:/home/kevo/ws_moveit2/install:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kevo'), ('NAME', 'Kipkorir'), ('WSL_INTEROP', '/run/WSL/615_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/../../share/gazebo-11/models::/home/kevo/ros_ws/src/ros_arm/src'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/kevo/ws_moveit2/install/moveit_core/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2023a/runtime/win64:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/HP/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/MinGW/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config:/home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup:/home/kevo/ros_ws/src/ros_arm/install/ros_arm_description:/home/kevo/ros_ws/src/ros_arm/install/hello_moveit:/home/kevo/ros2_ws/install/ros2_control_demo_example_6:/home/kevo/ros2_ws/install/ros2_control_demo_example_5:/home/kevo/ros2_ws/install/ros2_control_demo_example_4:/home/kevo/ros2_ws/install/ros2_control_demo_example_3:/home/kevo/ros2_ws/install/ros2_control_demo_example_2:/home/kevo/ros2_ws/install/ros2_control_demo_example_14:/home/kevo/ros2_ws/install/ros2_control_demo_example_10:/home/kevo/ros2_ws/install/ros2_control_demo_example_1:/home/kevo/ros2_ws/install/ros2_control_demo_description:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_moveit_config:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/kevo/ws_moveit2/install/panda_moveit_config:/home/kevo/ws_moveit2/install/moveit_runtime:/home/kevo/ws_moveit2/install/moveit2_tutorials:/home/kevo/ws_moveit2/install/moveit:/home/kevo/ws_moveit2/install/moveit_planners:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner:/home/kevo/ws_moveit2/install/mtc_tutorial:/home/kevo/ws_moveit2/install/moveit_visual_tools:/home/kevo/ws_moveit2/install/moveit_task_constructor_visualization:/home/kevo/ws_moveit2/install/moveit_task_constructor_demo:/home/kevo/ws_moveit2/install/moveit_task_constructor_capabilities:/home/kevo/ws_moveit2/install/moveit_task_constructor_core:/home/kevo/ws_moveit2/install/moveit_ros_control_interface:/home/kevo/ws_moveit2/install/moveit_plugins:/home/kevo/ws_moveit2/install/moveit_simple_controller_manager:/home/kevo/ws_moveit2/install/moveit_setup_assistant:/home/kevo/ws_moveit2/install/moveit_setup_srdf_plugins:/home/kevo/ws_moveit2/install/moveit_setup_core_plugins:/home/kevo/ws_moveit2/install/moveit_setup_controllers:/home/kevo/ws_moveit2/install/moveit_setup_app_plugins:/home/kevo/ws_moveit2/install/moveit_setup_framework:/home/kevo/ws_moveit2/install/moveit_servo:/home/kevo/ws_moveit2/install/moveit_ros:/home/kevo/ws_moveit2/install/moveit_ros_visualization:/home/kevo/ws_moveit2/install/moveit_hybrid_planning:/home/kevo/ws_moveit2/install/moveit_ros_planning_interface:/home/kevo/ws_moveit2/install/moveit_ros_benchmarks:/home/kevo/ws_moveit2/install/moveit_ros_warehouse:/home/kevo/ws_moveit2/install/moveit_ros_robot_interaction:/home/kevo/ws_moveit2/install/moveit_ros_perception:/home/kevo/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/kevo/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/kevo/ws_moveit2/install/moveit_ros_move_group:/home/kevo/ws_moveit2/install/moveit_planners_ompl:/home/kevo/ws_moveit2/install/moveit_ros_planning:/home/kevo/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/kevo/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/kevo/ws_moveit2/install/moveit_planners_chomp:/home/kevo/ws_moveit2/install/moveit_kinematics:/home/kevo/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/kevo/ws_moveit2/install/chomp_motion_planner:/home/kevo/ws_moveit2/install/moveit_core:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/srdfdom:/home/kevo/ws_moveit2/install/rviz_marker_tools:/home/kevo/ws_moveit2/install/rosparam_shortcuts:/home/kevo/ws_moveit2/install/moveit_task_constructor_msgs:/home/kevo/ws_moveit2/install/moveit_resources_prbt_support:/home/kevo/ws_moveit2/install/moveit_resources:/home/kevo/ws_moveit2/install/moveit_resources_pr2_description:/home/kevo/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/kevo/ws_moveit2/install/moveit_resources_panda_description:/home/kevo/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/kevo/ws_moveit2/install/moveit_resources_fanuc_description:/home/kevo/ws_moveit2/install/moveit_common:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/kevo/ros_ws/src/ros_arm/build/ros_arm_moveit_config'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware/local/lib/python3.10/dist-packages:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages:/home/kevo/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/kevo/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/kevo/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/kevo/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/kevo/ros_ws/src/ros_arm/install/ros_arm_description:/home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config:/home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup:/home/kevo/ros_ws/src/ros_arm/install/hello_moveit:/home/kevo/ros2_ws/install/ros2_control_demo_example_6:/home/kevo/ros2_ws/install/ros2_control_demo_example_5:/home/kevo/ros2_ws/install/ros2_control_demo_example_4:/home/kevo/ros2_ws/install/ros2_control_demo_example_3:/home/kevo/ros2_ws/install/ros2_control_demo_example_2:/home/kevo/ros2_ws/install/ros2_control_demo_example_14:/home/kevo/ros2_ws/install/ros2_control_demo_example_10:/home/kevo/ros2_ws/install/ros2_control_demo_example_1:/home/kevo/ros2_ws/install/ros2_control_demo_description:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_moveit_config:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/kevo/ws_moveit2/install/panda_moveit_config:/home/kevo/ws_moveit2/install/moveit_runtime:/home/kevo/ws_moveit2/install/moveit2_tutorials:/home/kevo/ws_moveit2/install/moveit:/home/kevo/ws_moveit2/install/moveit_planners:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner:/home/kevo/ws_moveit2/install/mtc_tutorial:/home/kevo/ws_moveit2/install/moveit_visual_tools:/home/kevo/ws_moveit2/install/moveit_task_constructor_visualization:/home/kevo/ws_moveit2/install/moveit_task_constructor_demo:/home/kevo/ws_moveit2/install/moveit_task_constructor_capabilities:/home/kevo/ws_moveit2/install/moveit_task_constructor_core:/home/kevo/ws_moveit2/install/moveit_ros_control_interface:/home/kevo/ws_moveit2/install/moveit_plugins:/home/kevo/ws_moveit2/install/moveit_simple_controller_manager:/home/kevo/ws_moveit2/install/moveit_setup_assistant:/home/kevo/ws_moveit2/install/moveit_setup_srdf_plugins:/home/kevo/ws_moveit2/install/moveit_setup_core_plugins:/home/kevo/ws_moveit2/install/moveit_setup_controllers:/home/kevo/ws_moveit2/install/moveit_setup_app_plugins:/home/kevo/ws_moveit2/install/moveit_setup_framework:/home/kevo/ws_moveit2/install/moveit_servo:/home/kevo/ws_moveit2/install/moveit_ros:/home/kevo/ws_moveit2/install/moveit_ros_visualization:/home/kevo/ws_moveit2/install/moveit_hybrid_planning:/home/kevo/ws_moveit2/install/moveit_ros_planning_interface:/home/kevo/ws_moveit2/install/moveit_ros_benchmarks:/home/kevo/ws_moveit2/install/moveit_ros_warehouse:/home/kevo/ws_moveit2/install/moveit_ros_robot_interaction:/home/kevo/ws_moveit2/install/moveit_ros_perception:/home/kevo/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/kevo/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/kevo/ws_moveit2/install/moveit_ros_move_group:/home/kevo/ws_moveit2/install/moveit_planners_ompl:/home/kevo/ws_moveit2/install/moveit_ros_planning:/home/kevo/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/kevo/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/kevo/ws_moveit2/install/moveit_planners_chomp:/home/kevo/ws_moveit2/install/moveit_kinematics:/home/kevo/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/kevo/ws_moveit2/install/chomp_motion_planner:/home/kevo/ws_moveit2/install/moveit_core:/home/kevo/ws_moveit2/install/srdfdom:/home/kevo/ws_moveit2/install/rviz_marker_tools:/home/kevo/ws_moveit2/install/rosparam_shortcuts:/home/kevo/ws_moveit2/install/moveit_task_constructor_msgs:/home/kevo/ws_moveit2/install/moveit_resources_prbt_support:/home/kevo/ws_moveit2/install/moveit_resources:/home/kevo/ws_moveit2/install/moveit_resources_pr2_description:/home/kevo/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/kevo/ws_moveit2/install/moveit_resources_panda_description:/home/kevo/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/kevo/ws_moveit2/install/moveit_resources_fanuc_description:/home/kevo/ws_moveit2/install/moveit_common:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[8.751440] (ros_arm_moveit_config) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.758509] (ros_arm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config/share/ament_index/resource_index/package_run_dependencies/ros_arm_moveit_config\n'}
+[8.759805] (ros_arm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config/share/ament_index/resource_index/parent_prefix_path/ros_arm_moveit_config\n'}
+[8.760063] (ros_arm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config/share/ros_arm_moveit_config/environment/ament_prefix_path.sh\n'}
+[8.760246] (ros_arm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config/share/ros_arm_moveit_config/environment/ament_prefix_path.dsv\n'}
+[8.760406] (ros_arm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config/share/ros_arm_moveit_config/environment/path.sh\n'}
+[8.760567] (ros_arm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config/share/ros_arm_moveit_config/environment/path.dsv\n'}
+[8.760729] (ros_arm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config/share/ros_arm_moveit_config/local_setup.bash\n'}
+[8.760892] (ros_arm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config/share/ros_arm_moveit_config/local_setup.sh\n'}
+[8.761036] (ros_arm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config/share/ros_arm_moveit_config/local_setup.zsh\n'}
+[8.761209] (ros_arm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config/share/ros_arm_moveit_config/local_setup.dsv\n'}
+[8.761341] (ros_arm_moveit_config) StdoutLine: {'line': b'-- Installing: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config/share/ros_arm_moveit_config/package.dsv\n'}
+[8.762402] (ros_arm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config/share/ament_index/resource_index/packages/ros_arm_moveit_config\n'}
+[8.763010] (ros_arm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config/share/ros_arm_moveit_config/cmake/ros_arm_moveit_configConfig.cmake\n'}
+[8.764020] (ros_arm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config/share/ros_arm_moveit_config/cmake/ros_arm_moveit_configConfig-version.cmake\n'}
+[8.778592] (ros_arm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config/share/ros_arm_moveit_config/package.xml\n'}
+[8.779596] (ros_arm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config/share/ros_arm_moveit_config/launch\n'}
+[8.780728] (ros_arm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config/share/ros_arm_moveit_config/launch/setup_assistant.launch.py\n'}
+[8.781759] (ros_arm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config/share/ros_arm_moveit_config/launch/move_group.launch.py\n'}
+[8.785302] (-) TimerEvent: {}
+[8.786734] (ros_arm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config/share/ros_arm_moveit_config/launch/warehouse_db.launch.py\n'}
+[8.789638] (ros_arm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config/share/ros_arm_moveit_config/launch/rsp.launch.py\n'}
+[8.791293] (ros_arm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config/share/ros_arm_moveit_config/launch/static_virtual_joint_tfs.launch.py\n'}
+[8.794764] (ros_arm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config/share/ros_arm_moveit_config/launch/demo.launch.py\n'}
+[8.795361] (ros_arm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config/share/ros_arm_moveit_config/launch/spawn_controllers.launch.py\n'}
+[8.795634] (ros_arm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config/share/ros_arm_moveit_config/launch/moveit_rviz.launch.py\n'}
+[8.795859] (ros_arm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config/share/ros_arm_moveit_config/config\n'}
+[8.796068] (ros_arm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config/share/ros_arm_moveit_config/config/joint_limits.yaml\n'}
+[8.796237] (ros_arm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config/share/ros_arm_moveit_config/config/pilz_cartesian_limits.yaml\n'}
+[8.796402] (ros_arm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config/share/ros_arm_moveit_config/config/moveit_controllers.yaml\n'}
+[8.796567] (ros_arm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config/share/ros_arm_moveit_config/config/r6bot.urdf.xacro\n'}
+[8.796750] (ros_arm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config/share/ros_arm_moveit_config/config/r6bot.ros2_control.xacro\n'}
+[8.796931] (ros_arm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config/share/ros_arm_moveit_config/config/moveit.rviz\n'}
+[8.797093] (ros_arm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config/share/ros_arm_moveit_config/config/initial_positions.yaml\n'}
+[8.797284] (ros_arm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config/share/ros_arm_moveit_config/config/kinematics.yaml\n'}
+[8.799231] (ros_arm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config/share/ros_arm_moveit_config/config/r6bot.srdf\n'}
+[8.809643] (ros_arm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config/share/ros_arm_moveit_config/config/ros2_controllers.yaml\n'}
+[8.811246] (ros_arm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config/share/ros_arm_moveit_config/.setup_assistant\n'}
+[8.812706] (ros_arm_moveit_config) CommandEnded: {'returncode': 0}
+[8.885636] (-) TimerEvent: {}
+[8.989618] (-) TimerEvent: {}
+[9.094777] (-) TimerEvent: {}
+[9.198723] (-) TimerEvent: {}
+[9.300503] (-) TimerEvent: {}
+[9.405945] (-) TimerEvent: {}
+[9.515921] (-) TimerEvent: {}
+[9.623581] (-) TimerEvent: {}
+[9.730552] (-) TimerEvent: {}
+[9.841879] (-) TimerEvent: {}
+[9.949518] (-) TimerEvent: {}
+[10.055053] (-) TimerEvent: {}
+[10.158783] (-) TimerEvent: {}
+[10.232404] (ros_arm_moveit_config) JobEnded: {'identifier': 'ros_arm_moveit_config', 'rc': 0}
+[10.258981] (-) TimerEvent: {}
+[10.360409] (-) TimerEvent: {}
+[10.464656] (-) TimerEvent: {}
+[10.566338] (-) TimerEvent: {}
+[10.669094] (-) TimerEvent: {}
+[10.771259] (-) TimerEvent: {}
+[10.872554] (-) TimerEvent: {}
+[10.974180] (-) TimerEvent: {}
+[11.076670] (-) TimerEvent: {}
+[11.177775] (-) TimerEvent: {}
+[11.278987] (-) TimerEvent: {}
+[11.380209] (-) TimerEvent: {}
+[11.481411] (-) TimerEvent: {}
+[11.582450] (-) TimerEvent: {}
+[11.683329] (-) TimerEvent: {}
+[11.787681] (-) TimerEvent: {}
+[11.888577] (-) TimerEvent: {}
+[11.990472] (-) TimerEvent: {}
+[12.091916] (-) TimerEvent: {}
+[12.194156] (-) TimerEvent: {}
+[12.296125] (-) TimerEvent: {}
+[12.397875] (-) TimerEvent: {}
+[12.499276] (-) TimerEvent: {}
+[12.600101] (-) TimerEvent: {}
+[12.701556] (-) TimerEvent: {}
+[12.804052] (-) TimerEvent: {}
+[12.906749] (-) TimerEvent: {}
+[13.008294] (-) TimerEvent: {}
+[13.109313] (-) TimerEvent: {}
+[13.210767] (-) TimerEvent: {}
+[13.312862] (-) TimerEvent: {}
+[13.414185] (-) TimerEvent: {}
+[13.515224] (-) TimerEvent: {}
+[13.616287] (-) TimerEvent: {}
+[13.717534] (-) TimerEvent: {}
+[13.819718] (-) TimerEvent: {}
+[13.920695] (-) TimerEvent: {}
+[14.022419] (-) TimerEvent: {}
+[14.124689] (-) TimerEvent: {}
+[14.226995] (-) TimerEvent: {}
+[14.327994] (-) TimerEvent: {}
+[14.428945] (-) TimerEvent: {}
+[14.530162] (-) TimerEvent: {}
+[14.631576] (-) TimerEvent: {}
+[14.733618] (-) TimerEvent: {}
+[14.834939] (-) TimerEvent: {}
+[14.936657] (-) TimerEvent: {}
+[15.038504] (-) TimerEvent: {}
+[15.139476] (-) TimerEvent: {}
+[15.241428] (-) TimerEvent: {}
+[15.342401] (-) TimerEvent: {}
+[15.444065] (-) TimerEvent: {}
+[15.546188] (-) TimerEvent: {}
+[15.648694] (-) TimerEvent: {}
+[15.751561] (-) TimerEvent: {}
+[15.854043] (-) TimerEvent: {}
+[15.956053] (-) TimerEvent: {}
+[16.057752] (-) TimerEvent: {}
+[16.158662] (-) TimerEvent: {}
+[16.260480] (-) TimerEvent: {}
+[16.363053] (-) TimerEvent: {}
+[16.464159] (-) TimerEvent: {}
+[16.568400] (-) TimerEvent: {}
+[16.669373] (-) TimerEvent: {}
+[16.770760] (-) TimerEvent: {}
+[16.872616] (-) TimerEvent: {}
+[16.973725] (-) TimerEvent: {}
+[17.075675] (-) TimerEvent: {}
+[17.178078] (-) TimerEvent: {}
+[17.280701] (-) TimerEvent: {}
+[17.383601] (-) TimerEvent: {}
+[17.485098] (-) TimerEvent: {}
+[17.587815] (-) TimerEvent: {}
+[17.689005] (-) TimerEvent: {}
+[17.790103] (-) TimerEvent: {}
+[17.891805] (-) TimerEvent: {}
+[17.998888] (-) TimerEvent: {}
+[18.100308] (-) TimerEvent: {}
+[18.201690] (-) TimerEvent: {}
+[18.302992] (-) TimerEvent: {}
+[18.405569] (-) TimerEvent: {}
+[18.507557] (-) TimerEvent: {}
+[18.608401] (-) TimerEvent: {}
+[18.709799] (-) TimerEvent: {}
+[18.812143] (-) TimerEvent: {}
+[18.914201] (-) TimerEvent: {}
+[19.016658] (-) TimerEvent: {}
+[19.118725] (-) TimerEvent: {}
+[19.219999] (-) TimerEvent: {}
+[19.320908] (-) TimerEvent: {}
+[19.421540] (-) TimerEvent: {}
+[19.522519] (-) TimerEvent: {}
+[19.623357] (-) TimerEvent: {}
+[19.724394] (-) TimerEvent: {}
+[19.825574] (-) TimerEvent: {}
+[19.926616] (-) TimerEvent: {}
+[20.028127] (-) TimerEvent: {}
+[20.130326] (-) TimerEvent: {}
+[20.233502] (-) TimerEvent: {}
+[20.335988] (-) TimerEvent: {}
+[20.438196] (-) TimerEvent: {}
+[20.539503] (-) TimerEvent: {}
+[20.640911] (-) TimerEvent: {}
+[20.741665] (-) TimerEvent: {}
+[20.842622] (-) TimerEvent: {}
+[20.944253] (-) TimerEvent: {}
+[21.046034] (-) TimerEvent: {}
+[21.148753] (-) TimerEvent: {}
+[21.250612] (-) TimerEvent: {}
+[21.351843] (-) TimerEvent: {}
+[21.452764] (-) TimerEvent: {}
+[21.554393] (-) TimerEvent: {}
+[21.655754] (-) TimerEvent: {}
+[21.757790] (-) TimerEvent: {}
+[21.859222] (-) TimerEvent: {}
+[21.961097] (-) TimerEvent: {}
+[22.062660] (-) TimerEvent: {}
+[22.164286] (-) TimerEvent: {}
+[22.265626] (-) TimerEvent: {}
+[22.374018] (-) TimerEvent: {}
+[22.475163] (-) TimerEvent: {}
+[22.576856] (-) TimerEvent: {}
+[22.679314] (-) TimerEvent: {}
+[22.780342] (-) TimerEvent: {}
+[22.881799] (-) TimerEvent: {}
+[22.984038] (-) TimerEvent: {}
+[23.084890] (-) TimerEvent: {}
+[23.185888] (-) TimerEvent: {}
+[23.287204] (-) TimerEvent: {}
+[23.389799] (-) TimerEvent: {}
+[23.490981] (-) TimerEvent: {}
+[23.591909] (-) TimerEvent: {}
+[23.692881] (-) TimerEvent: {}
+[23.794133] (-) TimerEvent: {}
+[23.895085] (-) TimerEvent: {}
+[23.996104] (-) TimerEvent: {}
+[24.096933] (-) TimerEvent: {}
+[24.199036] (-) TimerEvent: {}
+[24.300622] (-) TimerEvent: {}
+[24.402457] (-) TimerEvent: {}
+[24.504614] (-) TimerEvent: {}
+[24.605711] (-) TimerEvent: {}
+[24.707152] (-) TimerEvent: {}
+[24.808824] (-) TimerEvent: {}
+[24.911276] (-) TimerEvent: {}
+[25.019119] (-) TimerEvent: {}
+[25.121783] (-) TimerEvent: {}
+[25.223432] (-) TimerEvent: {}
+[25.326377] (-) TimerEvent: {}
+[25.428641] (-) TimerEvent: {}
+[25.530553] (-) TimerEvent: {}
+[25.632147] (-) TimerEvent: {}
+[25.733326] (-) TimerEvent: {}
+[25.834598] (-) TimerEvent: {}
+[25.935773] (-) TimerEvent: {}
+[26.036715] (-) TimerEvent: {}
+[26.137955] (-) TimerEvent: {}
+[26.238838] (-) TimerEvent: {}
+[26.339962] (-) TimerEvent: {}
+[26.441554] (-) TimerEvent: {}
+[26.543011] (-) TimerEvent: {}
+[26.643956] (-) TimerEvent: {}
+[26.744836] (-) TimerEvent: {}
+[26.848273] (-) TimerEvent: {}
+[26.950549] (-) TimerEvent: {}
+[27.053241] (-) TimerEvent: {}
+[27.155012] (-) TimerEvent: {}
+[27.255897] (-) TimerEvent: {}
+[27.358526] (-) TimerEvent: {}
+[27.460175] (-) TimerEvent: {}
+[27.561077] (-) TimerEvent: {}
+[27.662193] (-) TimerEvent: {}
+[27.763400] (-) TimerEvent: {}
+[27.865296] (-) TimerEvent: {}
+[27.967162] (-) TimerEvent: {}
+[28.072891] (-) TimerEvent: {}
+[28.174768] (-) TimerEvent: {}
+[28.277918] (-) TimerEvent: {}
+[28.380444] (-) TimerEvent: {}
+[28.482378] (-) TimerEvent: {}
+[28.584998] (-) TimerEvent: {}
+[28.686987] (-) TimerEvent: {}
+[28.788669] (-) TimerEvent: {}
+[28.894484] (-) TimerEvent: {}
+[28.996387] (-) TimerEvent: {}
+[29.099785] (-) TimerEvent: {}
+[29.202592] (-) TimerEvent: {}
+[29.303672] (-) TimerEvent: {}
+[29.405273] (-) TimerEvent: {}
+[29.514975] (-) TimerEvent: {}
+[29.616383] (-) TimerEvent: {}
+[29.717737] (-) TimerEvent: {}
+[29.818689] (-) TimerEvent: {}
+[29.919793] (-) TimerEvent: {}
+[30.020605] (-) TimerEvent: {}
+[30.121901] (-) TimerEvent: {}
+[30.223888] (-) TimerEvent: {}
+[30.324749] (-) TimerEvent: {}
+[30.428163] (-) TimerEvent: {}
+[30.530194] (-) TimerEvent: {}
+[30.631297] (-) TimerEvent: {}
+[30.732470] (-) TimerEvent: {}
+[30.833516] (-) TimerEvent: {}
+[30.934606] (-) TimerEvent: {}
+[31.036544] (-) TimerEvent: {}
+[31.139254] (-) TimerEvent: {}
+[31.240648] (-) TimerEvent: {}
+[31.342773] (-) TimerEvent: {}
+[31.445572] (-) TimerEvent: {}
+[31.547017] (-) TimerEvent: {}
+[31.648568] (-) TimerEvent: {}
+[31.749749] (-) TimerEvent: {}
+[31.850849] (-) TimerEvent: {}
+[31.952309] (-) TimerEvent: {}
+[32.055388] (-) TimerEvent: {}
+[32.156521] (-) TimerEvent: {}
+[32.258286] (-) TimerEvent: {}
+[32.360649] (-) TimerEvent: {}
+[32.462123] (-) TimerEvent: {}
+[32.563282] (-) TimerEvent: {}
+[32.665147] (-) TimerEvent: {}
+[32.766069] (-) TimerEvent: {}
+[32.867822] (-) TimerEvent: {}
+[32.968955] (-) TimerEvent: {}
+[33.070030] (-) TimerEvent: {}
+[33.171731] (-) TimerEvent: {}
+[33.273995] (-) TimerEvent: {}
+[33.374932] (-) TimerEvent: {}
+[33.477211] (-) TimerEvent: {}
+[33.579755] (-) TimerEvent: {}
+[33.680969] (-) TimerEvent: {}
+[33.782284] (-) TimerEvent: {}
+[34.154766] (-) TimerEvent: {}
+[34.256758] (-) TimerEvent: {}
+[34.358153] (-) TimerEvent: {}
+[34.460374] (-) TimerEvent: {}
+[34.562816] (-) TimerEvent: {}
+[34.663913] (-) TimerEvent: {}
+[34.765185] (-) TimerEvent: {}
+[34.866652] (-) TimerEvent: {}
+[34.969824] (-) TimerEvent: {}
+[35.074744] (-) TimerEvent: {}
+[35.176648] (-) TimerEvent: {}
+[35.278351] (-) TimerEvent: {}
+[35.379939] (-) TimerEvent: {}
+[35.480826] (-) TimerEvent: {}
+[35.582768] (-) TimerEvent: {}
+[35.685028] (-) TimerEvent: {}
+[35.785775] (-) TimerEvent: {}
+[35.886922] (-) TimerEvent: {}
+[35.988376] (-) TimerEvent: {}
+[36.090491] (-) TimerEvent: {}
+[36.193032] (-) TimerEvent: {}
+[36.294219] (-) TimerEvent: {}
+[36.396296] (-) TimerEvent: {}
+[36.498460] (-) TimerEvent: {}
+[36.600884] (-) TimerEvent: {}
+[36.703369] (-) TimerEvent: {}
+[36.805387] (-) TimerEvent: {}
+[36.906560] (-) TimerEvent: {}
+[37.008154] (-) TimerEvent: {}
+[37.109587] (-) TimerEvent: {}
+[37.210857] (-) TimerEvent: {}
+[37.312975] (-) TimerEvent: {}
+[37.415056] (-) TimerEvent: {}
+[37.516495] (-) TimerEvent: {}
+[37.617867] (-) TimerEvent: {}
+[37.719426] (-) TimerEvent: {}
+[37.827845] (-) TimerEvent: {}
+[37.930673] (-) TimerEvent: {}
+[38.033164] (-) TimerEvent: {}
+[38.134730] (-) TimerEvent: {}
+[38.236955] (-) TimerEvent: {}
+[38.338527] (-) TimerEvent: {}
+[38.441965] (-) TimerEvent: {}
+[38.544368] (-) TimerEvent: {}
+[38.645482] (-) TimerEvent: {}
+[38.746646] (-) TimerEvent: {}
+[38.848219] (-) TimerEvent: {}
+[38.950572] (-) TimerEvent: {}
+[39.052531] (-) TimerEvent: {}
+[39.153938] (-) TimerEvent: {}
+[39.255397] (-) TimerEvent: {}
+[39.357314] (-) TimerEvent: {}
+[39.459399] (-) TimerEvent: {}
+[39.560561] (-) TimerEvent: {}
+[39.662254] (-) TimerEvent: {}
+[39.764201] (-) TimerEvent: {}
+[39.865460] (-) TimerEvent: {}
+[39.967424] (-) TimerEvent: {}
+[40.075489] (-) TimerEvent: {}
+[40.176765] (-) TimerEvent: {}
+[40.278132] (-) TimerEvent: {}
+[40.379778] (-) TimerEvent: {}
+[40.483899] (-) TimerEvent: {}
+[40.586089] (-) TimerEvent: {}
+[40.687503] (-) TimerEvent: {}
+[40.789312] (-) TimerEvent: {}
+[40.893887] (-) TimerEvent: {}
+[40.994949] (-) TimerEvent: {}
+[41.095978] (-) TimerEvent: {}
+[41.197494] (-) TimerEvent: {}
+[41.299872] (-) TimerEvent: {}
+[41.401641] (-) TimerEvent: {}
+[41.503306] (-) TimerEvent: {}
+[41.604599] (-) TimerEvent: {}
+[41.707452] (-) TimerEvent: {}
+[41.808714] (-) TimerEvent: {}
+[41.910522] (-) TimerEvent: {}
+[42.012524] (-) TimerEvent: {}
+[42.113797] (-) TimerEvent: {}
+[42.215032] (-) TimerEvent: {}
+[42.316777] (-) TimerEvent: {}
+[42.421170] (-) TimerEvent: {}
+[42.524263] (-) TimerEvent: {}
+[42.625643] (-) TimerEvent: {}
+[42.726852] (-) TimerEvent: {}
+[42.828849] (-) TimerEvent: {}
+[42.931999] (-) TimerEvent: {}
+[43.035398] (-) TimerEvent: {}
+[43.136751] (-) TimerEvent: {}
+[43.238122] (-) TimerEvent: {}
+[43.339978] (-) TimerEvent: {}
+[43.441705] (-) TimerEvent: {}
+[43.542811] (-) TimerEvent: {}
+[43.649796] (-) TimerEvent: {}
+[43.751431] (-) TimerEvent: {}
+[43.853673] (-) TimerEvent: {}
+[43.955291] (-) TimerEvent: {}
+[44.056297] (-) TimerEvent: {}
+[44.157822] (-) TimerEvent: {}
+[44.258982] (-) TimerEvent: {}
+[44.359912] (-) TimerEvent: {}
+[44.460710] (-) TimerEvent: {}
+[44.562221] (-) TimerEvent: {}
+[44.664728] (-) TimerEvent: {}
+[44.767294] (-) TimerEvent: {}
+[44.868953] (-) TimerEvent: {}
+[44.972275] (-) TimerEvent: {}
+[45.073918] (-) TimerEvent: {}
+[45.174963] (-) TimerEvent: {}
+[45.276263] (-) TimerEvent: {}
+[45.377373] (-) TimerEvent: {}
+[45.478347] (-) TimerEvent: {}
+[45.579340] (-) TimerEvent: {}
+[45.680680] (-) TimerEvent: {}
+[45.781748] (-) TimerEvent: {}
+[45.882888] (-) TimerEvent: {}
+[45.985167] (-) TimerEvent: {}
+[46.086052] (-) TimerEvent: {}
+[46.187006] (-) TimerEvent: {}
+[46.288565] (-) TimerEvent: {}
+[46.389944] (-) TimerEvent: {}
+[46.491591] (-) TimerEvent: {}
+[46.594474] (-) TimerEvent: {}
+[46.695291] (-) TimerEvent: {}
+[46.796233] (-) TimerEvent: {}
+[46.897351] (-) TimerEvent: {}
+[46.998955] (-) TimerEvent: {}
+[47.101585] (-) TimerEvent: {}
+[47.202769] (-) TimerEvent: {}
+[47.303817] (-) TimerEvent: {}
+[47.405210] (-) TimerEvent: {}
+[47.512587] (-) TimerEvent: {}
+[47.613723] (-) TimerEvent: {}
+[47.715158] (-) TimerEvent: {}
+[47.817434] (-) TimerEvent: {}
+[47.919369] (-) TimerEvent: {}
+[48.021328] (-) TimerEvent: {}
+[48.122891] (-) TimerEvent: {}
+[48.225049] (-) TimerEvent: {}
+[48.326674] (-) TimerEvent: {}
+[48.429286] (-) TimerEvent: {}
+[48.531686] (-) TimerEvent: {}
+[48.633097] (-) TimerEvent: {}
+[48.734004] (-) TimerEvent: {}
+[48.834980] (-) TimerEvent: {}
+[48.936247] (-) TimerEvent: {}
+[49.037626] (-) TimerEvent: {}
+[49.138794] (-) TimerEvent: {}
+[49.240621] (-) TimerEvent: {}
+[49.344505] (-) TimerEvent: {}
+[49.446991] (-) TimerEvent: {}
+[49.549201] (-) TimerEvent: {}
+[49.651411] (-) TimerEvent: {}
+[49.752685] (-) TimerEvent: {}
+[49.854133] (-) TimerEvent: {}
+[49.955004] (-) TimerEvent: {}
+[50.055979] (-) TimerEvent: {}
+[50.157539] (-) TimerEvent: {}
+[50.259594] (-) TimerEvent: {}
+[50.361262] (-) TimerEvent: {}
+[50.463609] (-) TimerEvent: {}
+[50.565554] (-) TimerEvent: {}
+[50.666661] (-) TimerEvent: {}
+[50.767540] (-) TimerEvent: {}
+[50.868609] (-) TimerEvent: {}
+[50.969820] (-) TimerEvent: {}
+[51.078142] (-) TimerEvent: {}
+[51.179588] (-) TimerEvent: {}
+[51.280966] (-) TimerEvent: {}
+[51.383187] (-) TimerEvent: {}
+[51.485263] (-) TimerEvent: {}
+[51.586229] (-) TimerEvent: {}
+[51.688909] (-) TimerEvent: {}
+[51.790217] (-) TimerEvent: {}
+[51.891956] (-) TimerEvent: {}
+[51.993848] (-) TimerEvent: {}
+[52.095950] (-) TimerEvent: {}
+[52.196971] (-) TimerEvent: {}
+[52.298210] (-) TimerEvent: {}
+[52.399559] (-) TimerEvent: {}
+[52.500488] (-) TimerEvent: {}
+[52.601769] (-) TimerEvent: {}
+[52.702928] (-) TimerEvent: {}
+[52.804109] (-) TimerEvent: {}
+[52.906465] (-) TimerEvent: {}
+[53.008225] (-) TimerEvent: {}
+[53.110787] (-) TimerEvent: {}
+[53.213437] (-) TimerEvent: {}
+[53.314908] (-) TimerEvent: {}
+[53.418084] (-) TimerEvent: {}
+[53.519239] (-) TimerEvent: {}
+[53.620969] (-) TimerEvent: {}
+[53.722697] (-) TimerEvent: {}
+[53.826307] (-) TimerEvent: {}
+[53.927476] (-) TimerEvent: {}
+[54.029371] (-) TimerEvent: {}
+[54.130845] (-) TimerEvent: {}
+[54.232998] (-) TimerEvent: {}
+[54.334310] (-) TimerEvent: {}
+[54.435383] (-) TimerEvent: {}
+[54.537015] (-) TimerEvent: {}
+[54.639606] (-) TimerEvent: {}
+[54.741228] (-) TimerEvent: {}
+[54.842998] (-) TimerEvent: {}
+[54.944077] (-) TimerEvent: {}
+[55.046523] (-) TimerEvent: {}
+[55.147603] (-) TimerEvent: {}
+[55.248751] (-) TimerEvent: {}
+[55.350362] (-) TimerEvent: {}
+[55.452507] (-) TimerEvent: {}
+[55.553971] (-) TimerEvent: {}
+[55.655803] (-) TimerEvent: {}
+[55.757882] (-) TimerEvent: {}
+[55.859028] (-) TimerEvent: {}
+[55.959998] (-) TimerEvent: {}
+[56.061418] (-) TimerEvent: {}
+[56.163620] (-) TimerEvent: {}
+[56.266019] (-) TimerEvent: {}
+[56.367153] (-) TimerEvent: {}
+[56.468411] (-) TimerEvent: {}
+[56.569770] (-) TimerEvent: {}
+[56.670608] (-) TimerEvent: {}
+[56.771547] (-) TimerEvent: {}
+[56.872479] (-) TimerEvent: {}
+[56.973323] (-) TimerEvent: {}
+[57.076986] (-) TimerEvent: {}
+[57.178189] (-) TimerEvent: {}
+[57.279565] (-) TimerEvent: {}
+[57.380711] (-) TimerEvent: {}
+[57.482092] (-) TimerEvent: {}
+[57.583262] (-) TimerEvent: {}
+[57.685465] (-) TimerEvent: {}
+[57.787793] (-) TimerEvent: {}
+[57.889525] (-) TimerEvent: {}
+[57.991562] (-) TimerEvent: {}
+[58.093229] (-) TimerEvent: {}
+[58.195215] (-) TimerEvent: {}
+[58.298080] (-) TimerEvent: {}
+[58.399714] (-) TimerEvent: {}
+[58.501527] (-) TimerEvent: {}
+[58.603006] (-) TimerEvent: {}
+[58.706966] (-) TimerEvent: {}
+[58.810120] (-) TimerEvent: {}
+[58.911961] (-) TimerEvent: {}
+[59.013171] (-) TimerEvent: {}
+[59.114327] (-) TimerEvent: {}
+[59.215587] (-) TimerEvent: {}
+[59.316902] (-) TimerEvent: {}
+[59.418308] (-) TimerEvent: {}
+[59.520148] (-) TimerEvent: {}
+[59.622228] (-) TimerEvent: {}
+[59.723912] (-) TimerEvent: {}
+[59.826995] (-) TimerEvent: {}
+[59.928189] (-) TimerEvent: {}
+[60.030107] (-) TimerEvent: {}
+[60.132807] (-) TimerEvent: {}
+[60.234062] (-) TimerEvent: {}
+[60.335360] (-) TimerEvent: {}
+[60.437245] (-) TimerEvent: {}
+[60.547448] (-) TimerEvent: {}
+[60.648273] (-) TimerEvent: {}
+[60.750477] (-) TimerEvent: {}
+[60.851363] (-) TimerEvent: {}
+[60.952871] (-) TimerEvent: {}
+[61.055171] (-) TimerEvent: {}
+[61.156315] (-) TimerEvent: {}
+[61.257667] (-) TimerEvent: {}
+[61.358577] (-) TimerEvent: {}
+[61.460366] (-) TimerEvent: {}
+[61.562282] (-) TimerEvent: {}
+[61.663466] (-) TimerEvent: {}
+[61.764248] (-) TimerEvent: {}
+[61.865766] (-) TimerEvent: {}
+[61.967469] (-) TimerEvent: {}
+[62.068629] (-) TimerEvent: {}
+[62.170832] (-) TimerEvent: {}
+[62.271666] (-) TimerEvent: {}
+[62.372585] (-) TimerEvent: {}
+[62.473312] (-) TimerEvent: {}
+[62.574444] (-) TimerEvent: {}
+[62.675740] (-) TimerEvent: {}
+[62.776601] (-) TimerEvent: {}
+[62.877840] (-) TimerEvent: {}
+[62.979036] (-) TimerEvent: {}
+[63.080405] (-) TimerEvent: {}
+[63.183177] (-) TimerEvent: {}
+[63.284685] (-) TimerEvent: {}
+[63.385828] (-) TimerEvent: {}
+[63.486827] (-) TimerEvent: {}
+[63.588129] (-) TimerEvent: {}
+[63.691413] (-) TimerEvent: {}
+[63.793459] (-) TimerEvent: {}
+[63.894791] (-) TimerEvent: {}
+[63.996253] (-) TimerEvent: {}
+[64.097562] (-) TimerEvent: {}
+[64.198908] (-) TimerEvent: {}
+[64.299917] (-) TimerEvent: {}
+[64.401155] (-) TimerEvent: {}
+[64.502539] (-) TimerEvent: {}
+[64.603998] (-) TimerEvent: {}
+[64.705711] (-) TimerEvent: {}
+[64.806869] (-) TimerEvent: {}
+[64.907824] (-) TimerEvent: {}
+[65.008977] (-) TimerEvent: {}
+[65.110184] (-) TimerEvent: {}
+[65.211401] (-) TimerEvent: {}
+[65.312267] (-) TimerEvent: {}
+[65.413445] (-) TimerEvent: {}
+[65.515461] (-) TimerEvent: {}
+[65.617521] (-) TimerEvent: {}
+[65.718760] (-) TimerEvent: {}
+[65.820977] (-) TimerEvent: {}
+[65.922458] (-) TimerEvent: {}
+[66.023813] (-) TimerEvent: {}
+[66.125902] (-) TimerEvent: {}
+[66.227050] (-) TimerEvent: {}
+[66.328092] (-) TimerEvent: {}
+[66.429225] (-) TimerEvent: {}
+[66.531476] (-) TimerEvent: {}
+[66.634463] (-) TimerEvent: {}
+[66.736173] (-) TimerEvent: {}
+[66.843121] (-) TimerEvent: {}
+[66.944350] (-) TimerEvent: {}
+[67.046207] (-) TimerEvent: {}
+[67.148337] (-) TimerEvent: {}
+[67.249247] (-) TimerEvent: {}
+[67.350500] (-) TimerEvent: {}
+[67.451769] (-) TimerEvent: {}
+[67.552686] (-) TimerEvent: {}
+[67.654079] (-) TimerEvent: {}
+[67.755360] (-) TimerEvent: {}
+[67.856446] (-) TimerEvent: {}
+[67.957501] (-) TimerEvent: {}
+[68.058675] (-) TimerEvent: {}
+[68.159681] (-) TimerEvent: {}
+[68.261318] (-) TimerEvent: {}
+[68.363432] (-) TimerEvent: {}
+[68.465780] (-) TimerEvent: {}
+[68.568774] (-) TimerEvent: {}
+[68.671296] (-) TimerEvent: {}
+[68.772179] (-) TimerEvent: {}
+[68.873610] (-) TimerEvent: {}
+[68.975416] (-) TimerEvent: {}
+[69.077813] (-) TimerEvent: {}
+[69.178845] (-) TimerEvent: {}
+[69.279802] (-) TimerEvent: {}
+[69.381066] (-) TimerEvent: {}
+[69.482184] (-) TimerEvent: {}
+[69.583641] (-) TimerEvent: {}
+[69.685834] (-) TimerEvent: {}
+[69.786938] (-) TimerEvent: {}
+[69.888406] (-) TimerEvent: {}
+[69.989990] (-) TimerEvent: {}
+[70.092394] (-) TimerEvent: {}
+[70.193191] (-) TimerEvent: {}
+[70.294161] (-) TimerEvent: {}
+[70.394952] (-) TimerEvent: {}
+[70.496606] (-) TimerEvent: {}
+[70.599431] (-) TimerEvent: {}
+[70.700557] (-) TimerEvent: {}
+[70.801486] (-) TimerEvent: {}
+[70.902414] (-) TimerEvent: {}
+[71.003622] (-) TimerEvent: {}
+[71.104616] (-) TimerEvent: {}
+[71.206330] (-) TimerEvent: {}
+[71.307687] (-) TimerEvent: {}
+[71.408684] (-) TimerEvent: {}
+[71.510536] (-) TimerEvent: {}
+[71.612064] (-) TimerEvent: {}
+[71.715170] (-) TimerEvent: {}
+[71.816991] (-) TimerEvent: {}
+[71.918735] (-) TimerEvent: {}
+[72.021040] (-) TimerEvent: {}
+[72.123256] (-) TimerEvent: {}
+[72.224044] (-) TimerEvent: {}
+[72.324788] (-) TimerEvent: {}
+[72.426173] (-) TimerEvent: {}
+[72.527524] (-) TimerEvent: {}
+[72.628815] (-) TimerEvent: {}
+[72.729832] (-) TimerEvent: {}
+[72.831163] (-) TimerEvent: {}
+[72.932148] (-) TimerEvent: {}
+[73.033895] (-) TimerEvent: {}
+[73.135151] (-) TimerEvent: {}
+[73.236495] (-) TimerEvent: {}
+[73.337970] (-) TimerEvent: {}
+[73.440606] (-) TimerEvent: {}
+[73.544283] (-) TimerEvent: {}
+[73.646721] (-) TimerEvent: {}
+[73.748264] (-) TimerEvent: {}
+[73.850630] (-) TimerEvent: {}
+[73.952486] (-) TimerEvent: {}
+[74.053892] (-) TimerEvent: {}
+[74.156387] (-) TimerEvent: {}
+[74.257570] (-) TimerEvent: {}
+[74.358728] (-) TimerEvent: {}
+[74.461028] (-) TimerEvent: {}
+[74.562829] (-) TimerEvent: {}
+[74.664400] (-) TimerEvent: {}
+[74.767129] (-) TimerEvent: {}
+[74.868450] (-) TimerEvent: {}
+[74.969701] (-) TimerEvent: {}
+[75.071431] (-) TimerEvent: {}
+[75.173018] (-) TimerEvent: {}
+[75.273995] (-) TimerEvent: {}
+[75.375271] (-) TimerEvent: {}
+[75.476453] (-) TimerEvent: {}
+[75.577695] (-) TimerEvent: {}
+[75.678963] (-) TimerEvent: {}
+[75.782701] (-) TimerEvent: {}
+[75.885560] (-) TimerEvent: {}
+[75.986499] (-) TimerEvent: {}
+[76.088126] (-) TimerEvent: {}
+[76.190690] (-) TimerEvent: {}
+[76.291576] (-) TimerEvent: {}
+[76.392620] (-) TimerEvent: {}
+[76.493708] (-) TimerEvent: {}
+[76.594568] (-) TimerEvent: {}
+[76.695965] (-) TimerEvent: {}
+[76.798538] (-) TimerEvent: {}
+[76.899846] (-) TimerEvent: {}
+[77.001984] (-) TimerEvent: {}
+[77.103299] (-) TimerEvent: {}
+[77.204751] (-) TimerEvent: {}
+[77.306315] (-) TimerEvent: {}
+[77.407280] (-) TimerEvent: {}
+[77.508311] (-) TimerEvent: {}
+[77.609932] (-) TimerEvent: {}
+[77.712340] (-) TimerEvent: {}
+[77.814044] (-) TimerEvent: {}
+[77.920200] (-) TimerEvent: {}
+[78.029386] (-) TimerEvent: {}
+[78.130527] (-) TimerEvent: {}
+[78.231660] (-) TimerEvent: {}
+[78.333151] (-) TimerEvent: {}
+[78.434053] (-) TimerEvent: {}
+[78.535231] (-) TimerEvent: {}
+[78.636433] (-) TimerEvent: {}
+[78.737578] (-) TimerEvent: {}
+[78.838722] (-) TimerEvent: {}
+[78.941257] (-) TimerEvent: {}
+[79.042588] (-) TimerEvent: {}
+[79.143761] (-) TimerEvent: {}
+[79.245560] (-) TimerEvent: {}
+[79.347705] (-) TimerEvent: {}
+[79.449377] (-) TimerEvent: {}
+[79.550919] (-) TimerEvent: {}
+[79.652116] (-) TimerEvent: {}
+[79.753531] (-) TimerEvent: {}
+[79.861105] (-) TimerEvent: {}
+[79.962728] (-) TimerEvent: {}
+[80.064058] (-) TimerEvent: {}
+[80.166062] (-) TimerEvent: {}
+[80.268051] (-) TimerEvent: {}
+[80.368892] (-) TimerEvent: {}
+[80.470565] (-) TimerEvent: {}
+[80.573908] (-) TimerEvent: {}
+[80.678160] (-) TimerEvent: {}
+[80.780120] (-) TimerEvent: {}
+[80.883060] (-) TimerEvent: {}
+[80.984420] (-) TimerEvent: {}
+[81.086819] (-) TimerEvent: {}
+[81.190322] (-) TimerEvent: {}
+[81.293366] (-) TimerEvent: {}
+[81.394528] (-) TimerEvent: {}
+[81.495786] (-) TimerEvent: {}
+[81.597317] (-) TimerEvent: {}
+[81.699111] (-) TimerEvent: {}
+[81.801449] (-) TimerEvent: {}
+[81.902414] (-) TimerEvent: {}
+[82.003963] (-) TimerEvent: {}
+[82.106727] (-) TimerEvent: {}
+[82.209043] (-) TimerEvent: {}
+[82.311943] (-) TimerEvent: {}
+[82.412863] (-) TimerEvent: {}
+[82.514621] (-) TimerEvent: {}
+[82.616704] (-) TimerEvent: {}
+[82.718137] (-) TimerEvent: {}
+[82.819095] (-) TimerEvent: {}
+[82.920695] (-) TimerEvent: {}
+[83.021900] (-) TimerEvent: {}
+[83.122932] (-) TimerEvent: {}
+[83.223844] (-) TimerEvent: {}
+[83.325973] (-) TimerEvent: {}
+[83.428172] (-) TimerEvent: {}
+[83.530339] (-) TimerEvent: {}
+[83.632759] (-) TimerEvent: {}
+[83.734931] (-) TimerEvent: {}
+[83.841604] (-) TimerEvent: {}
+[83.943436] (-) TimerEvent: {}
+[84.045373] (-) TimerEvent: {}
+[84.146542] (-) TimerEvent: {}
+[84.247338] (-) TimerEvent: {}
+[84.348715] (-) TimerEvent: {}
+[84.450623] (-) TimerEvent: {}
+[84.553636] (-) TimerEvent: {}
+[84.654577] (-) TimerEvent: {}
+[84.755787] (-) TimerEvent: {}
+[84.857870] (-) TimerEvent: {}
+[84.961480] (-) TimerEvent: {}
+[85.062552] (-) TimerEvent: {}
+[85.164269] (-) TimerEvent: {}
+[85.267146] (-) TimerEvent: {}
+[85.369461] (-) TimerEvent: {}
+[85.471824] (-) TimerEvent: {}
+[85.574532] (-) TimerEvent: {}
+[85.676327] (-) TimerEvent: {}
+[85.777967] (-) TimerEvent: {}
+[85.879577] (-) TimerEvent: {}
+[85.984273] (-) TimerEvent: {}
+[86.088936] (-) TimerEvent: {}
+[86.190585] (-) TimerEvent: {}
+[86.291465] (-) TimerEvent: {}
+[86.393112] (-) TimerEvent: {}
+[86.495543] (-) TimerEvent: {}
+[86.597619] (-) TimerEvent: {}
+[86.699360] (-) TimerEvent: {}
+[86.800662] (-) TimerEvent: {}
+[86.902348] (-) TimerEvent: {}
+[87.005113] (-) TimerEvent: {}
+[87.107380] (-) TimerEvent: {}
+[87.210556] (-) TimerEvent: {}
+[87.311716] (-) TimerEvent: {}
+[87.413490] (-) TimerEvent: {}
+[87.515727] (-) TimerEvent: {}
+[87.616667] (-) TimerEvent: {}
+[87.717771] (-) TimerEvent: {}
+[87.819013] (-) TimerEvent: {}
+[87.920148] (-) TimerEvent: {}
+[88.021548] (-) TimerEvent: {}
+[88.124919] (-) TimerEvent: {}
+[88.227152] (-) TimerEvent: {}
+[88.328366] (-) TimerEvent: {}
+[88.430296] (-) TimerEvent: {}
+[88.532776] (-) TimerEvent: {}
+[88.634716] (-) TimerEvent: {}
+[88.735815] (-) TimerEvent: {}
+[88.837526] (-) TimerEvent: {}
+[88.939241] (-) TimerEvent: {}
+[89.041574] (-) TimerEvent: {}
+[89.142917] (-) TimerEvent: {}
+[89.245225] (-) TimerEvent: {}
+[89.346372] (-) TimerEvent: {}
+[89.448270] (-) TimerEvent: {}
+[89.551281] (-) TimerEvent: {}
+[89.653331] (-) TimerEvent: {}
+[89.755384] (-) TimerEvent: {}
+[89.859066] (-) TimerEvent: {}
+[89.961715] (-) TimerEvent: {}
+[90.062650] (-) TimerEvent: {}
+[90.163969] (-) TimerEvent: {}
+[90.273500] (-) TimerEvent: {}
+[90.377280] (-) TimerEvent: {}
+[90.480205] (-) TimerEvent: {}
+[90.584588] (-) TimerEvent: {}
+[90.685841] (-) TimerEvent: {}
+[90.787502] (-) TimerEvent: {}
+[90.890742] (-) TimerEvent: {}
+[90.992960] (-) TimerEvent: {}
+[91.094268] (-) TimerEvent: {}
+[91.195825] (-) TimerEvent: {}
+[91.297957] (-) TimerEvent: {}
+[91.401424] (-) TimerEvent: {}
+[91.504150] (-) TimerEvent: {}
+[91.605746] (-) TimerEvent: {}
+[91.707334] (-) TimerEvent: {}
+[91.808835] (-) TimerEvent: {}
+[91.910268] (-) TimerEvent: {}
+[92.011858] (-) TimerEvent: {}
+[92.113689] (-) TimerEvent: {}
+[92.215272] (-) TimerEvent: {}
+[92.319457] (-) TimerEvent: {}
+[92.421297] (-) TimerEvent: {}
+[92.528379] (-) TimerEvent: {}
+[92.629880] (-) TimerEvent: {}
+[92.732000] (-) TimerEvent: {}
+[92.832970] (-) TimerEvent: {}
+[92.933810] (-) TimerEvent: {}
+[93.035656] (-) TimerEvent: {}
+[93.137344] (-) TimerEvent: {}
+[93.240192] (-) TimerEvent: {}
+[93.341469] (-) TimerEvent: {}
+[93.406904] (hello_moveit) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable hello_moveit\x1b[0m\n'}
+[93.441962] (-) TimerEvent: {}
+[93.543325] (-) TimerEvent: {}
+[93.654819] (-) TimerEvent: {}
+[93.759032] (-) TimerEvent: {}
+[93.861656] (-) TimerEvent: {}
+[93.963413] (-) TimerEvent: {}
+[94.066817] (-) TimerEvent: {}
+[94.167811] (-) TimerEvent: {}
+[94.269545] (-) TimerEvent: {}
+[94.372675] (-) TimerEvent: {}
+[94.476751] (-) TimerEvent: {}
+[94.594741] (-) TimerEvent: {}
+[94.697027] (-) TimerEvent: {}
+[94.803994] (-) TimerEvent: {}
+[94.905533] (-) TimerEvent: {}
+[95.006738] (-) TimerEvent: {}
+[95.108548] (-) TimerEvent: {}
+[95.210605] (-) TimerEvent: {}
+[95.312620] (-) TimerEvent: {}
+[95.414988] (-) TimerEvent: {}
+[95.516854] (-) TimerEvent: {}
+[95.618043] (-) TimerEvent: {}
+[95.719766] (-) TimerEvent: {}
+[95.821630] (-) TimerEvent: {}
+[95.926672] (-) TimerEvent: {}
+[96.027719] (-) TimerEvent: {}
+[96.128596] (-) TimerEvent: {}
+[96.229533] (-) TimerEvent: {}
+[96.330404] (-) TimerEvent: {}
+[96.431346] (-) TimerEvent: {}
+[96.532758] (-) TimerEvent: {}
+[96.634011] (-) TimerEvent: {}
+[96.736498] (-) TimerEvent: {}
+[96.844636] (-) TimerEvent: {}
+[96.945905] (-) TimerEvent: {}
+[97.047050] (-) TimerEvent: {}
+[97.149090] (-) TimerEvent: {}
+[97.256670] (-) TimerEvent: {}
+[97.357908] (-) TimerEvent: {}
+[97.458884] (-) TimerEvent: {}
+[97.559901] (-) TimerEvent: {}
+[97.667509] (-) TimerEvent: {}
+[97.768383] (-) TimerEvent: {}
+[97.870033] (-) TimerEvent: {}
+[97.971213] (-) TimerEvent: {}
+[98.072557] (-) TimerEvent: {}
+[98.189578] (-) TimerEvent: {}
+[98.292307] (-) TimerEvent: {}
+[98.394811] (-) TimerEvent: {}
+[98.498175] (-) TimerEvent: {}
+[98.599464] (-) TimerEvent: {}
+[98.700665] (-) TimerEvent: {}
+[98.802352] (-) TimerEvent: {}
+[98.905761] (-) TimerEvent: {}
+[99.006989] (-) TimerEvent: {}
+[99.108647] (-) TimerEvent: {}
+[99.209998] (-) TimerEvent: {}
+[99.311555] (-) TimerEvent: {}
+[99.413976] (-) TimerEvent: {}
+[99.520682] (-) TimerEvent: {}
+[99.622191] (-) TimerEvent: {}
+[99.723328] (-) TimerEvent: {}
+[99.824489] (-) TimerEvent: {}
+[99.926614] (-) TimerEvent: {}
+[100.032109] (-) TimerEvent: {}
+[100.133951] (-) TimerEvent: {}
+[100.235278] (-) TimerEvent: {}
+[100.336932] (-) TimerEvent: {}
+[100.439714] (-) TimerEvent: {}
+[100.541437] (-) TimerEvent: {}
+[100.644652] (-) TimerEvent: {}
+[100.746328] (-) TimerEvent: {}
+[100.847380] (-) TimerEvent: {}
+[100.949897] (-) TimerEvent: {}
+[101.053697] (-) TimerEvent: {}
+[101.155808] (-) TimerEvent: {}
+[101.257140] (-) TimerEvent: {}
+[101.358564] (-) TimerEvent: {}
+[101.461305] (-) TimerEvent: {}
+[101.562389] (-) TimerEvent: {}
+[101.664959] (-) TimerEvent: {}
+[101.768080] (-) TimerEvent: {}
+[101.869168] (-) TimerEvent: {}
+[101.970992] (-) TimerEvent: {}
+[102.073053] (-) TimerEvent: {}
+[102.174251] (-) TimerEvent: {}
+[102.276063] (-) TimerEvent: {}
+[102.378270] (-) TimerEvent: {}
+[102.499471] (-) TimerEvent: {}
+[102.600927] (-) TimerEvent: {}
+[102.703630] (-) TimerEvent: {}
+[102.806817] (-) TimerEvent: {}
+[102.908322] (-) TimerEvent: {}
+[103.009879] (-) TimerEvent: {}
+[103.110957] (-) TimerEvent: {}
+[103.212752] (-) TimerEvent: {}
+[103.316849] (-) TimerEvent: {}
+[103.419475] (-) TimerEvent: {}
+[103.520729] (-) TimerEvent: {}
+[103.624898] (-) TimerEvent: {}
+[103.727110] (-) TimerEvent: {}
+[103.830938] (-) TimerEvent: {}
+[103.937030] (-) TimerEvent: {}
+[104.038823] (-) TimerEvent: {}
+[104.141000] (-) TimerEvent: {}
+[104.244603] (-) TimerEvent: {}
+[104.347628] (-) TimerEvent: {}
+[104.449553] (-) TimerEvent: {}
+[104.550368] (-) TimerEvent: {}
+[104.652377] (-) TimerEvent: {}
+[104.754786] (-) TimerEvent: {}
+[104.818821] (hello_moveit) StdoutLine: {'line': b'[100%] Built target hello_moveit\n'}
+[104.855634] (-) TimerEvent: {}
+[104.957674] (-) TimerEvent: {}
+[105.016454] (hello_moveit) CommandEnded: {'returncode': 0}
+[105.058826] (-) TimerEvent: {}
+[105.161895] (-) TimerEvent: {}
+[105.265124] (-) TimerEvent: {}
+[105.367625] (-) TimerEvent: {}
+[105.374130] (hello_moveit) JobProgress: {'identifier': 'hello_moveit', 'progress': 'install'}
+[105.376187] (hello_moveit) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kevo/ros_ws/src/ros_arm/build/hello_moveit'], 'cwd': '/home/kevo/ros_ws/src/ros_arm/build/hello_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kevo'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kevo/ros2_ws/install/ros2_control_demo_example_6/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_5/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_4/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_3/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_2/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_14/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_10/lib:/home/kevo/ros2_ws/install/ros2_control_demo_example_1/lib:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/lib:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner_testutils/lib:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner/lib:/home/kevo/ws_moveit2/install/moveit_visual_tools/lib:/home/kevo/ws_moveit2/install/moveit_task_constructor_visualization/lib:/home/kevo/ws_moveit2/install/moveit_task_constructor_demo/lib:/home/kevo/ws_moveit2/install/moveit_task_constructor_capabilities/lib:/home/kevo/ws_moveit2/install/moveit_task_constructor_core/lib:/home/kevo/ws_moveit2/install/moveit_ros_control_interface/lib:/home/kevo/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/kevo/ws_moveit2/install/moveit_setup_assistant/lib:/home/kevo/ws_moveit2/install/moveit_setup_srdf_plugins/lib:/home/kevo/ws_moveit2/install/moveit_setup_core_plugins/lib:/home/kevo/ws_moveit2/install/moveit_setup_controllers/lib:/home/kevo/ws_moveit2/install/moveit_setup_app_plugins/lib:/home/kevo/ws_moveit2/install/moveit_setup_framework/lib:/home/kevo/ws_moveit2/install/moveit_servo/lib:/home/kevo/ws_moveit2/install/moveit_ros_visualization/lib:/home/kevo/ws_moveit2/install/moveit_hybrid_planning/lib:/home/kevo/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/kevo/ws_moveit2/install/moveit_ros_benchmarks/lib:/home/kevo/ws_moveit2/install/moveit_ros_warehouse/lib:/home/kevo/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/kevo/ws_moveit2/install/moveit_ros_perception/lib:/home/kevo/ws_moveit2/install/moveit_ros_move_group/lib:/home/kevo/ws_moveit2/install/moveit_planners_ompl/lib:/home/kevo/ws_moveit2/install/moveit_ros_planning/lib:/home/kevo/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/kevo/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/kevo/ws_moveit2/install/moveit_planners_chomp/lib:/home/kevo/ws_moveit2/install/moveit_kinematics/lib:/home/kevo/ws_moveit2/install/moveit_chomp_optimizer_adapter/lib:/home/kevo/ws_moveit2/install/chomp_motion_planner/lib:/home/kevo/ws_moveit2/install/moveit_core/lib:/home/kevo/ws_moveit2/install/srdfdom/lib:/home/kevo/ws_moveit2/install/rviz_marker_tools/lib:/home/kevo/ws_moveit2/install/rosparam_shortcuts/lib:/home/kevo/ws_moveit2/install/moveit_task_constructor_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/kevo'), ('OLDPWD', '/home/kevo'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kevo/ros_ws/src/ros_arm/install:/home/kevo/ros2_ws/install:/home/kevo/ws_moveit2/install:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kevo'), ('NAME', 'Kipkorir'), ('WSL_INTEROP', '/run/WSL/615_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/../../share/gazebo-11/models::/home/kevo/ros_ws/src/ros_arm/src'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/kevo/ws_moveit2/install/moveit_core/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2023a/runtime/win64:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/HP/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/MinGW/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config:/home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup:/home/kevo/ros_ws/src/ros_arm/install/ros_arm_description:/home/kevo/ros_ws/src/ros_arm/install/hello_moveit:/home/kevo/ros2_ws/install/ros2_control_demo_example_6:/home/kevo/ros2_ws/install/ros2_control_demo_example_5:/home/kevo/ros2_ws/install/ros2_control_demo_example_4:/home/kevo/ros2_ws/install/ros2_control_demo_example_3:/home/kevo/ros2_ws/install/ros2_control_demo_example_2:/home/kevo/ros2_ws/install/ros2_control_demo_example_14:/home/kevo/ros2_ws/install/ros2_control_demo_example_10:/home/kevo/ros2_ws/install/ros2_control_demo_example_1:/home/kevo/ros2_ws/install/ros2_control_demo_description:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_moveit_config:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/kevo/ws_moveit2/install/panda_moveit_config:/home/kevo/ws_moveit2/install/moveit_runtime:/home/kevo/ws_moveit2/install/moveit2_tutorials:/home/kevo/ws_moveit2/install/moveit:/home/kevo/ws_moveit2/install/moveit_planners:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner:/home/kevo/ws_moveit2/install/mtc_tutorial:/home/kevo/ws_moveit2/install/moveit_visual_tools:/home/kevo/ws_moveit2/install/moveit_task_constructor_visualization:/home/kevo/ws_moveit2/install/moveit_task_constructor_demo:/home/kevo/ws_moveit2/install/moveit_task_constructor_capabilities:/home/kevo/ws_moveit2/install/moveit_task_constructor_core:/home/kevo/ws_moveit2/install/moveit_ros_control_interface:/home/kevo/ws_moveit2/install/moveit_plugins:/home/kevo/ws_moveit2/install/moveit_simple_controller_manager:/home/kevo/ws_moveit2/install/moveit_setup_assistant:/home/kevo/ws_moveit2/install/moveit_setup_srdf_plugins:/home/kevo/ws_moveit2/install/moveit_setup_core_plugins:/home/kevo/ws_moveit2/install/moveit_setup_controllers:/home/kevo/ws_moveit2/install/moveit_setup_app_plugins:/home/kevo/ws_moveit2/install/moveit_setup_framework:/home/kevo/ws_moveit2/install/moveit_servo:/home/kevo/ws_moveit2/install/moveit_ros:/home/kevo/ws_moveit2/install/moveit_ros_visualization:/home/kevo/ws_moveit2/install/moveit_hybrid_planning:/home/kevo/ws_moveit2/install/moveit_ros_planning_interface:/home/kevo/ws_moveit2/install/moveit_ros_benchmarks:/home/kevo/ws_moveit2/install/moveit_ros_warehouse:/home/kevo/ws_moveit2/install/moveit_ros_robot_interaction:/home/kevo/ws_moveit2/install/moveit_ros_perception:/home/kevo/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/kevo/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/kevo/ws_moveit2/install/moveit_ros_move_group:/home/kevo/ws_moveit2/install/moveit_planners_ompl:/home/kevo/ws_moveit2/install/moveit_ros_planning:/home/kevo/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/kevo/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/kevo/ws_moveit2/install/moveit_planners_chomp:/home/kevo/ws_moveit2/install/moveit_kinematics:/home/kevo/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/kevo/ws_moveit2/install/chomp_motion_planner:/home/kevo/ws_moveit2/install/moveit_core:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/srdfdom:/home/kevo/ws_moveit2/install/rviz_marker_tools:/home/kevo/ws_moveit2/install/rosparam_shortcuts:/home/kevo/ws_moveit2/install/moveit_task_constructor_msgs:/home/kevo/ws_moveit2/install/moveit_resources_prbt_support:/home/kevo/ws_moveit2/install/moveit_resources:/home/kevo/ws_moveit2/install/moveit_resources_pr2_description:/home/kevo/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/kevo/ws_moveit2/install/moveit_resources_panda_description:/home/kevo/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/kevo/ws_moveit2/install/moveit_resources_fanuc_description:/home/kevo/ws_moveit2/install/moveit_common:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/kevo/ros_ws/src/ros_arm/build/hello_moveit'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs/local/lib/python3.10/dist-packages:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware/local/lib/python3.10/dist-packages:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes/lib/python3.10/site-packages:/home/kevo/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/kevo/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/kevo/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/kevo/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/kevo/ros_ws/src/ros_arm/install/ros_arm_moveit_config:/home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup:/home/kevo/ros_ws/src/ros_arm/install/ros_arm_description:/home/kevo/ros_ws/src/ros_arm/install/hello_moveit:/home/kevo/ros2_ws/install/ros2_control_demo_example_6:/home/kevo/ros2_ws/install/ros2_control_demo_example_5:/home/kevo/ros2_ws/install/ros2_control_demo_example_4:/home/kevo/ros2_ws/install/ros2_control_demo_example_3:/home/kevo/ros2_ws/install/ros2_control_demo_example_2:/home/kevo/ros2_ws/install/ros2_control_demo_example_14:/home/kevo/ros2_ws/install/ros2_control_demo_example_10:/home/kevo/ros2_ws/install/ros2_control_demo_example_1:/home/kevo/ros2_ws/install/ros2_control_demo_description:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_msgs:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_moveit_config:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_kinematics:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_firmware:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_description:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_controllers:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/kevo/ws_moveit2/install/panda_moveit_config:/home/kevo/ws_moveit2/install/moveit_runtime:/home/kevo/ws_moveit2/install/moveit2_tutorials:/home/kevo/ws_moveit2/install/moveit:/home/kevo/ws_moveit2/install/moveit_planners:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner:/home/kevo/ws_moveit2/install/mtc_tutorial:/home/kevo/ws_moveit2/install/moveit_visual_tools:/home/kevo/ws_moveit2/install/moveit_task_constructor_visualization:/home/kevo/ws_moveit2/install/moveit_task_constructor_demo:/home/kevo/ws_moveit2/install/moveit_task_constructor_capabilities:/home/kevo/ws_moveit2/install/moveit_task_constructor_core:/home/kevo/ws_moveit2/install/moveit_ros_control_interface:/home/kevo/ws_moveit2/install/moveit_plugins:/home/kevo/ws_moveit2/install/moveit_simple_controller_manager:/home/kevo/ws_moveit2/install/moveit_setup_assistant:/home/kevo/ws_moveit2/install/moveit_setup_srdf_plugins:/home/kevo/ws_moveit2/install/moveit_setup_core_plugins:/home/kevo/ws_moveit2/install/moveit_setup_controllers:/home/kevo/ws_moveit2/install/moveit_setup_app_plugins:/home/kevo/ws_moveit2/install/moveit_setup_framework:/home/kevo/ws_moveit2/install/moveit_servo:/home/kevo/ws_moveit2/install/moveit_ros:/home/kevo/ws_moveit2/install/moveit_ros_visualization:/home/kevo/ws_moveit2/install/moveit_hybrid_planning:/home/kevo/ws_moveit2/install/moveit_ros_planning_interface:/home/kevo/ws_moveit2/install/moveit_ros_benchmarks:/home/kevo/ws_moveit2/install/moveit_ros_warehouse:/home/kevo/ws_moveit2/install/moveit_ros_robot_interaction:/home/kevo/ws_moveit2/install/moveit_ros_perception:/home/kevo/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/kevo/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/kevo/ws_moveit2/install/moveit_ros_move_group:/home/kevo/ws_moveit2/install/moveit_planners_ompl:/home/kevo/ws_moveit2/install/moveit_ros_planning:/home/kevo/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/kevo/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/kevo/ws_moveit2/install/moveit_planners_chomp:/home/kevo/ws_moveit2/install/moveit_kinematics:/home/kevo/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/kevo/ws_moveit2/install/chomp_motion_planner:/home/kevo/ws_moveit2/install/moveit_core:/home/kevo/ws_moveit2/install/srdfdom:/home/kevo/ws_moveit2/install/rviz_marker_tools:/home/kevo/ws_moveit2/install/rosparam_shortcuts:/home/kevo/ws_moveit2/install/moveit_task_constructor_msgs:/home/kevo/ws_moveit2/install/moveit_resources_prbt_support:/home/kevo/ws_moveit2/install/moveit_resources:/home/kevo/ws_moveit2/install/moveit_resources_pr2_description:/home/kevo/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/kevo/ws_moveit2/install/moveit_resources_panda_description:/home/kevo/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/kevo/ws_moveit2/install/moveit_resources_fanuc_description:/home/kevo/ws_moveit2/install/moveit_common:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[105.469041] (-) TimerEvent: {}
+[105.520033] (hello_moveit) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[105.520658] (hello_moveit) StdoutLine: {'line': b'-- Installing: /home/kevo/ros_ws/src/ros_arm/install/hello_moveit/lib/hello_moveit/hello_moveit\n'}
+[105.524706] (hello_moveit) StdoutLine: {'line': b'-- Set runtime path of "/home/kevo/ros_ws/src/ros_arm/install/hello_moveit/lib/hello_moveit/hello_moveit" to ""\n'}
+[105.553267] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/ament_index/resource_index/package_run_dependencies/hello_moveit\n'}
+[105.554350] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/ament_index/resource_index/parent_prefix_path/hello_moveit\n'}
+[105.555031] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.sh\n'}
+[105.555661] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.dsv\n'}
+[105.580230] (-) TimerEvent: {}
+[105.582378] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/hello_moveit/environment/path.sh\n'}
+[105.597726] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/hello_moveit/environment/path.dsv\n'}
+[105.600519] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/hello_moveit/local_setup.bash\n'}
+[105.600910] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/hello_moveit/local_setup.sh\n'}
+[105.602897] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/hello_moveit/local_setup.zsh\n'}
+[105.607047] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/hello_moveit/local_setup.dsv\n'}
+[105.607345] (hello_moveit) StdoutLine: {'line': b'-- Installing: /home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/hello_moveit/package.dsv\n'}
+[105.607586] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/ament_index/resource_index/packages/hello_moveit\n'}
+[105.607813] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig.cmake\n'}
+[105.608060] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig-version.cmake\n'}
+[105.608285] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/hello_moveit/share/hello_moveit/package.xml\n'}
+[105.608494] (hello_moveit) CommandEnded: {'returncode': 0}
+[105.681241] (-) TimerEvent: {}
+[105.786613] (-) TimerEvent: {}
+[105.914284] (-) TimerEvent: {}
+[106.027092] (-) TimerEvent: {}
+[106.138351] (-) TimerEvent: {}
+[106.249718] (-) TimerEvent: {}
+[106.363214] (-) TimerEvent: {}
+[106.474952] (-) TimerEvent: {}
+[106.585449] (-) TimerEvent: {}
+[106.700761] (-) TimerEvent: {}
+[106.808532] (-) TimerEvent: {}
+[106.910487] (-) TimerEvent: {}
+[107.016570] (-) TimerEvent: {}
+[107.141447] (-) TimerEvent: {}
+[107.246737] (-) TimerEvent: {}
+[107.360372] (-) TimerEvent: {}
+[107.472794] (-) TimerEvent: {}
+[107.577764] (-) TimerEvent: {}
+[107.680459] (-) TimerEvent: {}
+[107.805413] (-) TimerEvent: {}
+[107.912720] (-) TimerEvent: {}
+[108.017460] (-) TimerEvent: {}
+[108.129495] (-) TimerEvent: {}
+[108.246015] (-) TimerEvent: {}
+[108.360238] (-) TimerEvent: {}
+[108.480022] (-) TimerEvent: {}
+[108.583998] (-) TimerEvent: {}
+[108.656265] (hello_moveit) JobEnded: {'identifier': 'hello_moveit', 'rc': 0}
+[108.664868] (-) EventReactorShutdown: {}
