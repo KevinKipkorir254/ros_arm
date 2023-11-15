@@ -1,0 +1,34 @@
+[0.839s] Invoking command in '/home/kevo/ros_ws/src/ros_arm/build/new_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kevo/ros_ws/src/ros_arm/build/new_bot -- -j8 -l8
+[1.081s] Invoked command in '/home/kevo/ros_ws/src/ros_arm/build/new_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kevo/ros_ws/src/ros_arm/build/new_bot -- -j8 -l8
+[1.498s] Invoking command in '/home/kevo/ros_ws/src/ros_arm/build/new_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/kevo/ros_ws/src/ros_arm/build/new_bot
+[1.531s] -- Install configuration: ""
+[1.531s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/new_bot/share/new_bot/config
+[1.535s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/new_bot/share/new_bot/config/empty.yaml
+[1.538s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/new_bot/share/new_bot/config/new_bot.rviz
+[1.542s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/new_bot/share/new_bot/config/rrbot_controllers.yaml
+[1.543s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/new_bot/share/new_bot/description
+[1.544s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/new_bot/share/new_bot/description/rrbot.materials.xacro
+[1.545s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/new_bot/share/new_bot/description/robot.urdf.xacro
+[1.548s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/new_bot/share/new_bot/description/rrbot_description.urdf.xacro
+[1.548s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/new_bot/share/new_bot/description/rrbot.ros2_control.xacro
+[1.548s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/new_bot/share/new_bot/launch
+[1.549s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/new_bot/share/new_bot/launch/rsp.launch.py
+[1.550s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/new_bot/share/new_bot/launch/launch_sim.launch.py
+[1.551s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/new_bot/share/new_bot/worlds
+[1.551s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/new_bot/share/new_bot/worlds/empty.world
+[1.552s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/new_bot/share/ament_index/resource_index/package_run_dependencies/new_bot
+[1.553s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/new_bot/share/ament_index/resource_index/parent_prefix_path/new_bot
+[1.553s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/new_bot/share/new_bot/environment/ament_prefix_path.sh
+[1.554s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/new_bot/share/new_bot/environment/ament_prefix_path.dsv
+[1.554s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/new_bot/share/new_bot/environment/path.sh
+[1.555s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/new_bot/share/new_bot/environment/path.dsv
+[1.556s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/new_bot/share/new_bot/local_setup.bash
+[1.558s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/new_bot/share/new_bot/local_setup.sh
+[1.561s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/new_bot/share/new_bot/local_setup.zsh
+[1.563s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/new_bot/share/new_bot/local_setup.dsv
+[1.563s] -- Installing: /home/kevo/ros_ws/src/ros_arm/install/new_bot/share/new_bot/package.dsv
+[1.564s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/new_bot/share/ament_index/resource_index/packages/new_bot
+[1.564s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/new_bot/share/new_bot/cmake/new_botConfig.cmake
+[1.564s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/new_bot/share/new_bot/cmake/new_botConfig-version.cmake
+[1.565s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/new_bot/share/new_bot/package.xml
+[2.230s] Invoked command in '/home/kevo/ros_ws/src/ros_arm/build/new_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/kevo/ros_ws/src/ros_arm/build/new_bot

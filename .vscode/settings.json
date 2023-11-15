@@ -1,0 +1,32 @@
+{
+    "python.analysis.extraPaths": [
+        "/home/kevo/ros2_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages",
+        "/home/kevo/ros2_ws/install/rqt_controller_manager/lib/python3.10/site-packages",
+        "/home/kevo/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages",
+        "/home/kevo/ros2_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages",
+        "/home/kevo/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages",
+        "/home/kevo/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages",
+        "/home/kevo/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages",
+        "/home/kevo/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages",
+        "/home/kevo/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages",
+        "/home/kevo/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages",
+        "/home/kevo/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.autoComplete.extraPaths": [
+        "/home/kevo/ros2_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages",
+        "/home/kevo/ros2_ws/install/rqt_controller_manager/lib/python3.10/site-packages",
+        "/home/kevo/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages",
+        "/home/kevo/ros2_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages",
+        "/home/kevo/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages",
+        "/home/kevo/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages",
+        "/home/kevo/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages",
+        "/home/kevo/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages",
+        "/home/kevo/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages",
+        "/home/kevo/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages",
+        "/home/kevo/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
