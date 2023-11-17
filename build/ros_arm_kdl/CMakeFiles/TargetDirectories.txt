@@ -1,6 +1,7 @@
 /home/kevo/ros_ws/src/ros_arm/build/ros_arm_kdl/CMakeFiles/uninstall.dir
 /home/kevo/ros_ws/src/ros_arm/build/ros_arm_kdl/CMakeFiles/ros_arm_kdl_uninstall.dir
 /home/kevo/ros_ws/src/ros_arm/build/ros_arm_kdl/CMakeFiles/ros_arm_kdl.dir
+/home/kevo/ros_ws/src/ros_arm/build/ros_arm_kdl/CMakeFiles/geometry_publisher.dir
 /home/kevo/ros_ws/src/ros_arm/build/ros_arm_kdl/CMakeFiles/test.dir
 /home/kevo/ros_ws/src/ros_arm/build/ros_arm_kdl/CMakeFiles/edit_cache.dir
 /home/kevo/ros_ws/src/ros_arm/build/ros_arm_kdl/CMakeFiles/rebuild_cache.dir

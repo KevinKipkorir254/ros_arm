@@ -1,4 +1,5 @@
 /home/kevo/ros_ws/src/ros_arm/install/ros_arm_kdl/lib/ros_arm_kdl/ros_arm_kdl
+/home/kevo/ros_ws/src/ros_arm/install/ros_arm_kdl/lib/ros_arm_kdl/geometry_publisher
 /home/kevo/ros_ws/src/ros_arm/install/ros_arm_kdl/share/ament_index/resource_index/package_run_dependencies/ros_arm_kdl
 /home/kevo/ros_ws/src/ros_arm/install/ros_arm_kdl/share/ament_index/resource_index/parent_prefix_path/ros_arm_kdl
 /home/kevo/ros_ws/src/ros_arm/install/ros_arm_kdl/share/ros_arm_kdl/environment/ament_prefix_path.sh

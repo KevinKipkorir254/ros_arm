@@ -17,14 +17,22 @@ find_package(kdl_parser REQUIRED)
 find_package(urdf REQUIRED)
 find_package(urdfdom REQUIRED)
 find_package(orocos_kdl_vendor REQUIRED)
-find_package(ros_arm_description)
+find_package(ros_arm_description REQUIRED)
+find_package(geometry_msgs REQUIRED)
 
 add_executable(ros_arm_kdl src/ros_arm_kdl.cpp)
-ament_target_dependencies(ros_arm_kdl rclcpp std_msgs ament_index_cpp kdl_parser urdf urdfdom orocos_kdl_vendor)
+ament_target_dependencies(ros_arm_kdl rclcpp std_msgs ament_index_cpp kdl_parser urdf urdfdom orocos_kdl_vendor geometry_msgs)
+
+add_executable(geometry_publisher src/geometry_pont_publisher.cpp)
+ament_target_dependencies(geometry_publisher rclcpp geometry_msgs std_msgs)
 
 install(TARGETS
   ros_arm_kdl
   DESTINATION lib/${PROJECT_NAME})
+  
+install(TARGETS
+geometry_publisher
+DESTINATION lib/${PROJECT_NAME})
 
 
 

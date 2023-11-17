@@ -210,6 +210,43 @@ ros_arm_kdl/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros_arm_kdl.dir/build.make CMakeFiles/ros_arm_kdl.dir/build
 .PHONY : ros_arm_kdl/fast
 
+#=============================================================================
+# Target rules for targets named geometry_publisher
+
+# Build rule for target.
+geometry_publisher: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 geometry_publisher
+.PHONY : geometry_publisher
+
+# fast build rule for target.
+geometry_publisher/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/geometry_publisher.dir/build.make CMakeFiles/geometry_publisher.dir/build
+.PHONY : geometry_publisher/fast
+
+src/geometry_pont_publisher.o: src/geometry_pont_publisher.cpp.o
+.PHONY : src/geometry_pont_publisher.o
+
+# target to build an object file
+src/geometry_pont_publisher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/geometry_publisher.dir/build.make CMakeFiles/geometry_publisher.dir/src/geometry_pont_publisher.cpp.o
+.PHONY : src/geometry_pont_publisher.cpp.o
+
+src/geometry_pont_publisher.i: src/geometry_pont_publisher.cpp.i
+.PHONY : src/geometry_pont_publisher.i
+
+# target to preprocess a source file
+src/geometry_pont_publisher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/geometry_publisher.dir/build.make CMakeFiles/geometry_publisher.dir/src/geometry_pont_publisher.cpp.i
+.PHONY : src/geometry_pont_publisher.cpp.i
+
+src/geometry_pont_publisher.s: src/geometry_pont_publisher.cpp.s
+.PHONY : src/geometry_pont_publisher.s
+
+# target to generate assembly for a file
+src/geometry_pont_publisher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/geometry_publisher.dir/build.make CMakeFiles/geometry_publisher.dir/src/geometry_pont_publisher.cpp.s
+.PHONY : src/geometry_pont_publisher.cpp.s
+
 src/ros_arm_kdl.o: src/ros_arm_kdl.cpp.o
 .PHONY : src/ros_arm_kdl.o
 
@@ -249,7 +286,11 @@ help:
 	@echo "... test"
 	@echo "... ros_arm_kdl_uninstall"
 	@echo "... uninstall"
+	@echo "... geometry_publisher"
 	@echo "... ros_arm_kdl"
+	@echo "... src/geometry_pont_publisher.o"
+	@echo "... src/geometry_pont_publisher.i"
+	@echo "... src/geometry_pont_publisher.s"
 	@echo "... src/ros_arm_kdl.o"
 	@echo "... src/ros_arm_kdl.i"
 	@echo "... src/ros_arm_kdl.s"
