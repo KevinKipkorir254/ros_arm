@@ -1,0 +1,108 @@
+[2.933s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/kevo/ros_ws/src/ros_arm']
+[2.933s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/kevo/ros_ws/src/ros_arm'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fc216100790>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7fc2161305b0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7fc2161305b0>>, mixin_verb=('list',))
+[3.025s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.026s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.026s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.026s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.026s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.026s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kevo/ros_ws/src/ros_arm'
+[3.026s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm) by extensions ['ignore', 'ignore_ament_install']
+[3.027s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm) by extension 'ignore'
+[3.027s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm) by extension 'ignore_ament_install'
+[3.027s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm) by extensions ['colcon_pkg']
+[3.027s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm) by extension 'colcon_pkg'
+[3.027s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm) by extensions ['colcon_meta']
+[3.027s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm) by extension 'colcon_meta'
+[3.027s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm) by extensions ['ros']
+[3.027s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm) by extension 'ros'
+[3.044s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm) by extensions ['cmake', 'python']
+[3.044s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm) by extension 'cmake'
+[3.044s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm) by extension 'python'
+[3.044s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm) by extensions ['python_setup_py']
+[3.044s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm) by extension 'python_setup_py'
+[3.044s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/build) by extensions ['ignore', 'ignore_ament_install']
+[3.045s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/build) by extension 'ignore'
+[3.045s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/build) ignored
+[3.045s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/install) by extensions ['ignore', 'ignore_ament_install']
+[3.045s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/install) by extension 'ignore'
+[3.045s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/install) ignored
+[3.045s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/log) by extensions ['ignore', 'ignore_ament_install']
+[3.045s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/log) by extension 'ignore'
+[3.045s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/log) ignored
+[3.046s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src) by extensions ['ignore', 'ignore_ament_install']
+[3.046s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src) by extension 'ignore'
+[3.046s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src) by extension 'ignore_ament_install'
+[3.046s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src) by extensions ['colcon_pkg']
+[3.046s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src) by extension 'colcon_pkg'
+[3.046s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src) by extensions ['colcon_meta']
+[3.046s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src) by extension 'colcon_meta'
+[3.046s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src) by extensions ['ros']
+[3.046s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src) by extension 'ros'
+[3.047s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src) by extensions ['cmake', 'python']
+[3.047s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src) by extension 'cmake'
+[3.047s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src) by extension 'python'
+[3.047s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src) by extensions ['python_setup_py']
+[3.047s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src) by extension 'python_setup_py'
+[3.047s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_bringup) by extensions ['ignore', 'ignore_ament_install']
+[3.048s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_bringup) by extension 'ignore'
+[3.048s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_bringup) by extension 'ignore_ament_install'
+[3.048s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_bringup) by extensions ['colcon_pkg']
+[3.048s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_bringup) by extension 'colcon_pkg'
+[3.048s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_bringup) by extensions ['colcon_meta']
+[3.048s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_bringup) by extension 'colcon_meta'
+[3.048s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_bringup) by extensions ['ros']
+[3.048s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_bringup) by extension 'ros'
+[3.051s] DEBUG:colcon.colcon_core.package_identification:Package '/home/kevo/ros_ws/src/ros_arm/src/ros_arm_bringup' with type 'ros.ament_cmake' and name 'ros_arm_bringup'
+[3.051s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_description) by extensions ['ignore', 'ignore_ament_install']
+[3.052s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_description) by extension 'ignore'
+[3.052s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_description) by extension 'ignore_ament_install'
+[3.052s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_description) by extensions ['colcon_pkg']
+[3.052s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_description) by extension 'colcon_pkg'
+[3.052s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_description) by extensions ['colcon_meta']
+[3.052s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_description) by extension 'colcon_meta'
+[3.052s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_description) by extensions ['ros']
+[3.052s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_description) by extension 'ros'
+[3.053s] DEBUG:colcon.colcon_core.package_identification:Package '/home/kevo/ros_ws/src/ros_arm/src/ros_arm_description' with type 'ros.ament_cmake' and name 'ros_arm_description'
+[3.053s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_kdl) by extensions ['ignore', 'ignore_ament_install']
+[3.053s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_kdl) by extension 'ignore'
+[3.053s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_kdl) by extension 'ignore_ament_install'
+[3.053s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_kdl) by extensions ['colcon_pkg']
+[3.053s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_kdl) by extension 'colcon_pkg'
+[3.053s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_kdl) by extensions ['colcon_meta']
+[3.053s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_kdl) by extension 'colcon_meta'
+[3.053s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_kdl) by extensions ['ros']
+[3.053s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_kdl) by extension 'ros'
+[3.054s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_kdl) by extensions ['cmake', 'python']
+[3.054s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_kdl) by extension 'cmake'
+[3.054s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_kdl) by extension 'python'
+[3.054s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_kdl) by extensions ['python_setup_py']
+[3.054s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_kdl) by extension 'python_setup_py'
+[3.054s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_kdl/include) by extensions ['ignore', 'ignore_ament_install']
+[3.054s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_kdl/include) by extension 'ignore'
+[3.054s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_kdl/include) by extension 'ignore_ament_install'
+[3.054s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_kdl/include) by extensions ['colcon_pkg']
+[3.054s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_kdl/include) by extension 'colcon_pkg'
+[3.054s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_kdl/include) by extensions ['colcon_meta']
+[3.054s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_kdl/include) by extension 'colcon_meta'
+[3.054s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_kdl/include) by extensions ['ros']
+[3.055s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_kdl/include) by extension 'ros'
+[3.055s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_kdl/include) by extensions ['cmake', 'python']
+[3.055s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_kdl/include) by extension 'cmake'
+[3.055s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_kdl/include) by extension 'python'
+[3.055s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_kdl/include) by extensions ['python_setup_py']
+[3.055s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_kdl/include) by extension 'python_setup_py'
+[3.055s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_kdl/include/ros_arm_kdl) by extensions ['ignore', 'ignore_ament_install']
+[3.055s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_kdl/include/ros_arm_kdl) by extension 'ignore'
+[3.055s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_kdl/include/ros_arm_kdl) by extension 'ignore_ament_install'
+[3.055s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_kdl/include/ros_arm_kdl) by extensions ['colcon_pkg']
+[3.055s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_kdl/include/ros_arm_kdl) by extension 'colcon_pkg'
+[3.055s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_kdl/include/ros_arm_kdl) by extensions ['colcon_meta']
+[3.055s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_kdl/include/ros_arm_kdl) by extension 'colcon_meta'
+[3.055s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_kdl/include/ros_arm_kdl) by extensions ['ros']
+[3.055s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_kdl/include/ros_arm_kdl) by extension 'ros'
+[3.056s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_kdl/include/ros_arm_kdl) by extensions ['cmake', 'python']
+[3.056s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_kdl/include/ros_arm_kdl) by extension 'cmake'
+[3.056s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_kdl/include/ros_arm_kdl) by extension 'python'
+[3.056s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_kdl/include/ros_arm_kdl) by extensions ['python_setup_py']
+[3.056s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kevo/ros_ws/src/ros_arm/src/ros_arm_kdl/include/ros_arm_kdl) by extension 'python_setup_py'
+[3.056s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
