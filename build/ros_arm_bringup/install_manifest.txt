@@ -1,5 +1,8 @@
+/home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup//launch/stark.launch.py
+/home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup//launch/gazebo_test.launch.xml
 /home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup//launch/gazebo.launch.xml
 /home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup//launch/controllers.launch.py
+/home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup//launch/all.launch.py
 /home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ament_index/resource_index/package_run_dependencies/ros_arm_bringup
 /home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ament_index/resource_index/parent_prefix_path/ros_arm_bringup
 /home/kevo/ros_ws/src/ros_arm/install/ros_arm_bringup/share/ros_arm_bringup/environment/ament_prefix_path.sh

@@ -6,5 +6,5 @@
 
   <!-- Import r6bot macro -->
   <xacro:include filename="$(find ros_arm_description)/urdf/r6bot_description.urdf.xacro"/>
-  <!--<xacro:include filename="ros2_control.xacro"/>-->
+  <xacro:include filename="$(find ros_arm_description)/urdf/ros2_control.xacro"/>
 </robot>

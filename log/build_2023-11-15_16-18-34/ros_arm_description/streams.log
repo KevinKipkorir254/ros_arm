@@ -1,0 +1,52 @@
+[3.468s] Invoking command in '/home/kevo/ros_ws/src/ros_arm/build/ros_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kevo/ros_ws/src/ros_arm/build/ros_arm_description -- -j8 -l8
+[3.765s] Invoked command in '/home/kevo/ros_ws/src/ros_arm/build/ros_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kevo/ros_ws/src/ros_arm/build/ros_arm_description -- -j8 -l8
+[3.967s] Invoking command in '/home/kevo/ros_ws/src/ros_arm/build/ros_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/kevo/ros_ws/src/ros_arm/build/ros_arm_description
+[4.035s] -- Install configuration: ""
+[4.036s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//urdf
+[4.039s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//urdf/r6bot_.urdf
+[4.039s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//urdf/r6bot_description.urdf.xacro
+[4.040s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//urdf/r6bot.urdf.xacro
+[4.040s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//urdf/inc
+[4.041s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//urdf/inc/create_link.xacro
+[4.041s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//urdf/ros2_control.xacro
+[4.041s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//r6bot
+[4.041s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//r6bot/meshes
+[4.041s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//r6bot/meshes/collision
+[4.042s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//r6bot/meshes/collision/link_3.stl
+[4.042s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//r6bot/meshes/collision/link_1.stl
+[4.042s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//r6bot/meshes/collision/link_0.stl
+[4.042s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//r6bot/meshes/collision/link_5.stl
+[4.042s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//r6bot/meshes/collision/link_4.stl
+[4.043s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//r6bot/meshes/collision/link_6.stl
+[4.043s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//r6bot/meshes/collision/link_2.stl
+[4.045s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//r6bot/meshes/visual
+[4.048s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//r6bot/meshes/visual/link_0.dae
+[4.053s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//r6bot/meshes/visual/link_1.dae
+[4.060s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//r6bot/meshes/visual/link_6.dae
+[4.062s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//r6bot/meshes/visual/link_5.dae
+[4.064s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//r6bot/meshes/visual/link_2.dae
+[4.064s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//r6bot/meshes/visual/link_4.dae
+[4.065s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//r6bot/meshes/visual/link_3.dae
+[4.067s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//launch
+[4.068s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//launch/display.launch.xml
+[4.074s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//rviz
+[4.084s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//rviz/my_rviz.rviz
+[4.084s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//config
+[4.085s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//config/rrbot_joint_trajectory_publisher.yaml
+[4.085s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description//config/r6bot_controllers.yaml
+[4.086s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ament_index/resource_index/package_run_dependencies/ros_arm_description
+[4.087s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ament_index/resource_index/parent_prefix_path/ros_arm_description
+[4.088s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description/environment/ament_prefix_path.sh
+[4.088s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description/environment/ament_prefix_path.dsv
+[4.089s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description/environment/path.sh
+[4.096s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description/environment/path.dsv
+[4.097s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description/local_setup.bash
+[4.099s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description/local_setup.sh
+[4.100s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description/local_setup.zsh
+[4.100s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description/local_setup.dsv
+[4.101s] -- Installing: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description/package.dsv
+[4.102s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ament_index/resource_index/packages/ros_arm_description
+[4.102s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description/cmake/ros_arm_descriptionConfig.cmake
+[4.103s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description/cmake/ros_arm_descriptionConfig-version.cmake
+[4.103s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/ros_arm_description/share/ros_arm_description/package.xml
+[4.231s] Invoked command in '/home/kevo/ros_ws/src/ros_arm/build/ros_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/kevo/ros_ws/src/ros_arm/build/ros_arm_description

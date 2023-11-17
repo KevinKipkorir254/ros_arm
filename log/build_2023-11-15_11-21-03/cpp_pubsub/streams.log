@@ -1,0 +1,24 @@
+[4.412s] Invoking command in '/home/kevo/ros_ws/src/ros_arm/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kevo/ros_ws/src/ros_arm/build/cpp_pubsub -- -j8 -l8
+[4.739s] [ 50%] Built target listener
+[4.770s] [100%] Built target talker
+[4.883s] Invoked command in '/home/kevo/ros_ws/src/ros_arm/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kevo/ros_ws/src/ros_arm/build/cpp_pubsub -- -j8 -l8
+[6.623s] Invoking command in '/home/kevo/ros_ws/src/ros_arm/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/kevo/ros_ws/src/ros_arm/build/cpp_pubsub
+[6.689s] -- Install configuration: ""
+[6.691s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/cpp_pubsub/lib/cpp_pubsub/talker
+[6.694s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/cpp_pubsub/lib/cpp_pubsub/listener
+[6.699s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[6.700s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[6.702s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[6.703s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[6.704s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[6.706s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[6.709s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[6.711s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[6.714s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[6.717s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[6.725s] -- Installing: /home/kevo/ros_ws/src/ros_arm/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[6.729s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[6.746s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[6.754s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[6.767s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[11.331s] Invoked command in '/home/kevo/ros_ws/src/ros_arm/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/kevo/ros_ws/src/ros_arm/build/cpp_pubsub

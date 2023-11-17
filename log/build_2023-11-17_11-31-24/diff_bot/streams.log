@@ -1,0 +1,33 @@
+[6.643s] Invoking command in '/home/kevo/ros_ws/src/ros_arm/build/diff_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kevo/ros_ws/src/ros_arm/build/diff_bot -- -j8 -l8
+[7.303s] Invoked command in '/home/kevo/ros_ws/src/ros_arm/build/diff_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kevo/ros_ws/src/ros_arm/build/diff_bot -- -j8 -l8
+[7.750s] Invoking command in '/home/kevo/ros_ws/src/ros_arm/build/diff_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/kevo/ros_ws/src/ros_arm/build/diff_bot
+[8.099s] -- Install configuration: ""
+[8.100s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/diff_bot/share/diff_bot/config
+[8.100s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/diff_bot/share/diff_bot/config/empty.yaml
+[8.100s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/diff_bot/share/diff_bot/config/diffbot_controllers.yaml
+[8.100s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/diff_bot/share/diff_bot/description
+[8.101s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/diff_bot/share/diff_bot/description/diffbot_description.urdf.xacro
+[8.101s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/diff_bot/share/diff_bot/description/robot.urdf.xacro
+[8.102s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/diff_bot/share/diff_bot/description/diffbot.materials.xacro
+[8.116s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/diff_bot/share/diff_bot/description/diffbot.ros2_control.xacro
+[8.117s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/diff_bot/share/diff_bot/launch
+[8.117s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/diff_bot/share/diff_bot/launch/rsp.launch.py
+[8.118s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/diff_bot/share/diff_bot/launch/launch_sim.launch.py
+[8.119s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/diff_bot/share/diff_bot/worlds
+[8.119s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/diff_bot/share/diff_bot/worlds/empty.world
+[8.119s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/diff_bot/share/ament_index/resource_index/package_run_dependencies/diff_bot
+[8.119s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/diff_bot/share/ament_index/resource_index/parent_prefix_path/diff_bot
+[8.120s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/diff_bot/share/diff_bot/environment/ament_prefix_path.sh
+[8.120s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/diff_bot/share/diff_bot/environment/ament_prefix_path.dsv
+[8.122s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/diff_bot/share/diff_bot/environment/path.sh
+[8.123s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/diff_bot/share/diff_bot/environment/path.dsv
+[8.123s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/diff_bot/share/diff_bot/local_setup.bash
+[8.124s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/diff_bot/share/diff_bot/local_setup.sh
+[8.124s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/diff_bot/share/diff_bot/local_setup.zsh
+[8.124s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/diff_bot/share/diff_bot/local_setup.dsv
+[8.124s] -- Installing: /home/kevo/ros_ws/src/ros_arm/install/diff_bot/share/diff_bot/package.dsv
+[8.160s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/diff_bot/share/ament_index/resource_index/packages/diff_bot
+[8.182s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/diff_bot/share/diff_bot/cmake/diff_botConfig.cmake
+[8.185s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/diff_bot/share/diff_bot/cmake/diff_botConfig-version.cmake
+[8.197s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/diff_bot/share/diff_bot/package.xml
+[8.217s] Invoked command in '/home/kevo/ros_ws/src/ros_arm/build/diff_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/kevo/ros_ws/src/ros_arm/build/diff_bot

@@ -1,0 +1,35 @@
+[4.032s] Invoking command in '/home/kevo/ros_ws/src/ros_arm/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kevo/ros_ws/src/ros_arm/build/my_bot -- -j8 -l8
+[4.650s] Invoked command in '/home/kevo/ros_ws/src/ros_arm/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kevo/ros_ws/src/ros_arm/build/my_bot -- -j8 -l8
+[5.457s] Invoking command in '/home/kevo/ros_ws/src/ros_arm/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/kevo/ros_ws/src/ros_arm/build/my_bot
+[5.475s] -- Install configuration: ""
+[5.487s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/my_bot/share/my_bot/config
+[5.488s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/my_bot/share/my_bot/config/empty.yaml
+[5.490s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/my_bot/share/my_bot/config/my_controllers.yaml
+[5.490s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/my_bot/share/my_bot/config/view_bot.rviz
+[5.491s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/my_bot/share/my_bot/description
+[5.491s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[5.492s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/my_bot/share/my_bot/description/robot_core.xacro
+[5.502s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[5.520s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/my_bot/share/my_bot/description/ros2_control.xacro
+[5.522s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[5.529s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/my_bot/share/my_bot/launch
+[5.535s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/my_bot/share/my_bot/launch/rsp.launch.py
+[5.555s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[5.557s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/my_bot/share/my_bot/worlds
+[5.558s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/my_bot/share/my_bot/worlds/empty.world
+[5.569s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[5.571s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[5.580s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[5.584s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[5.586s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/my_bot/share/my_bot/environment/path.sh
+[5.587s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/my_bot/share/my_bot/environment/path.dsv
+[5.587s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/my_bot/share/my_bot/local_setup.bash
+[5.597s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/my_bot/share/my_bot/local_setup.sh
+[5.600s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/my_bot/share/my_bot/local_setup.zsh
+[5.604s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/my_bot/share/my_bot/local_setup.dsv
+[5.605s] -- Installing: /home/kevo/ros_ws/src/ros_arm/install/my_bot/share/my_bot/package.dsv
+[5.606s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[5.610s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[5.623s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[5.624s] -- Up-to-date: /home/kevo/ros_ws/src/ros_arm/install/my_bot/share/my_bot/package.xml
+[7.257s] Invoked command in '/home/kevo/ros_ws/src/ros_arm/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ros_ws/src/ai_based_sorting_robot_arm/install/robotic_arm_custom_nodes:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/kevo/ros_ws/src/ros_arm/build/my_bot
